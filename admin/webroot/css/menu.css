@@ -1,0 +1,41 @@
+.tab-content {
+  background: #E4E4E4;
+}
+
+.tab-pane {
+  padding: 25px;
+}
+
+#menu-area li.active a {
+  background: #E4E4E4;
+}
+
+.menutag-group {
+  margin: 0px 0px 23px;
+  padding: 6px;
+  background: #CDCDCD;
+  border-radius: 5px;
+}
+
+.menutag {
+  width: 327px;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.menutag.menutag:first-child {
+  margin: 5px 0;
+}
+
+.menutag.menutag:not(:first-child) {
+  margin: 5px 0 5px 30px;
+}
+
+.menu-page-optionlabel {
+  pointer-events: none;
+}
+
+#menu-formdata-area {
+  margin: 15px 0 13px;
+}

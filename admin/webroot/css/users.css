@@ -1,0 +1,21 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-image: linear-gradient(to bottom, #F6F6F6 0px, #DCDCDC 100%);
+}
+#logo {
+  text-align: center;
+  margin: 16px 0;
+}
+#loginbox {
+  width: 100%;
+  max-width: 320px;
+  margin: 100px auto;
+}
+#loginbox .panel-success .panel-heading {
+  background-image: linear-gradient(to bottom, #5cb85c 0, #419641 100%);
+  color: white;
+}
+
