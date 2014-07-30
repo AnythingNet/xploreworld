@@ -6,15 +6,13 @@
 	<?php echo $this->Html->charset(); ?>
 
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
-  <meta http-equiv='cache-control' content='no-cache'>
   <!-- remove on production!!-->
 
 	<title><?php echo $title_for_layout; ?></title>
 
 	<?php
 
-		echo $this->Html->meta('description', $meta_description);
-		echo $this->Html->css('bootstrap/bootstrap.min');
+		//echo $this->Html->meta('description', $meta_description);
 
 		echo $this->Html->script('script');
 
@@ -22,6 +20,7 @@
 		echo $this->fetch('css');
 		//echo $this->fetch('script');
 
+/*
 		echo $this->Html->css('bootstrap/bootstrap.min');
 		echo $this->Html->css('jquery-ui/smoothness/jquery-ui-1.10.4.min');
 		echo $this->Html->css('bootstrap/bootstrap-theme.min');
@@ -38,6 +37,7 @@
 
     //custom javascript
 		echo $this->Html->script('script');
+*/
 
 	?>
 
@@ -93,6 +93,28 @@
   </nav>
 
   <?php echo $this->Session->flash(); ?>
+
+  <?php
+		echo $this->Html->css('bootstrap/bootstrap.min');
+
+		echo $this->Html->css('bootstrap/bootstrap.min');
+		echo $this->Html->css('jquery-ui/smoothness/jquery-ui-1.10.4.min');
+		echo $this->Html->css('bootstrap/bootstrap-theme.min');
+
+		//echo $this->Html->css('style');
+		echo $this->Html->css('//fonts.googleapis.com/css?family=Roboto:100,300,400,500,900');
+		echo $this->Html->css('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css');
+		echo $this->Html->css('custom');
+
+    // Bootstrap core JavaScript, and plugins
+		echo $this->Html->script('jquery-1.10.2.min');
+		echo $this->Html->script('jquery-ui-1.10.4.min');
+		echo $this->Html->script('bootstrap/bootstrap.min');
+
+    //custom javascript
+		echo $this->Html->script('script');
+
+  ?>
 
   <div id="content-body">
     <?php echo $this->fetch('content'); ?>

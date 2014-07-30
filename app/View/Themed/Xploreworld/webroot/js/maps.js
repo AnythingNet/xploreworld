@@ -142,13 +142,12 @@ var mapDone = function() {
 
   if (selected_items.length == 0) {
 
-    var message = $('<p>').addClass('alert alert-danger').text('select at leas one');
+    var message = $('<p>').addClass('alert alert-danger').text('select at least one location');
     $('#mapdone').before(message);
 
   } else {
     
     $('.collapse').collapse('toggle');
-    //$('#user-form.xplorearea').collapse('show');
 
     selected_items.each(function(i, item){
 
@@ -179,9 +178,10 @@ var formDone = function(e) {
     last_name: $('#last_name').val(),
     email: $('#email').val(),
     phone: $('#phone').val(),
-    comment: $('#comment').val(),
-    items: []
+    comment: $('#comment').val()
   }
+
+  console.log($('.items').val());
 
   var items = $('.items');
 
@@ -222,7 +222,7 @@ var formDone = function(e) {
     }
   }
 
-  $.ajax(options);
+  //$.ajax(options);
   
 }
 
