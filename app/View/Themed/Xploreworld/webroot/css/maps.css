@@ -100,6 +100,13 @@ div.ui-datepicker {
   margin: 0 auto 30px;
 }
 
+.form-area {
+  padding: 28px 0;
+  width: 100%;
+  max-width: 564px;
+  margin: 0 auto;
+}
+
 .form-label {
   display: block;
   margin: 10px auto 26px;
