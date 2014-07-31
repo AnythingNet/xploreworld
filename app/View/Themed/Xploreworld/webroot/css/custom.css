@@ -13,8 +13,7 @@
 }
 
 .logo {
-  width: 159px;
-  background: url('img/logo.png');
+  width: 100%; 
 }
 
 .airplain {
@@ -30,7 +29,6 @@
 }
 
 #content-body {
-  padding: 10px 0;
   background: #a8b9c3; /* Old browsers */
   background: -moz-linear-gradient(top,  #a8b9c3 0%, #c6d3da 15%, #c6d3da 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a8b9c3), color-stop(15%,#c6d3da), color-stop(100%,#c6d3da)); /* Chrome,Safari4+ */

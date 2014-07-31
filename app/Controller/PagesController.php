@@ -32,6 +32,7 @@ class PagesController extends AppController {
 
       $home_page_id = $this->Setting->getHomePageId();
       $page = $this->Page->findById($home_page_id);
+      $this->view = 'airplain';
 
     } else {
 
