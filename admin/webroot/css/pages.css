@@ -1,0 +1,27 @@
+.page-inputs {
+ max-width: 463px;
+}
+
+.note-editor {
+  margin: 0 0 20px 0;
+}
+
+#img-selectmodal .image-optiongroup {
+  width: 50%;
+}
+
+#img-selectmodal .image-optiongroup:nth-child(odd) {
+  float: left;
+}
+
+#img-selectmodal .image-optiongroup:nth-child(even) {
+  float: right;
+}
+
+#img-selectmodal .modal-content img {
+  width: 200px;
+}
+
+#content-input-area {
+  margin: 35px 0 60px 0;
+}
