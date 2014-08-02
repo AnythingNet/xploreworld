@@ -53,30 +53,30 @@
 
         <div class="row">
 
-          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-            <a class="navbar-brand" href="/"><?php echo $this->Html->image('/css/img/logo.png', array('class' => 'logo')); ?></a>
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <a class="navbar-brand logo-link" href="/"><?php echo $this->Html->image('/css/img/logo.png', array('class' => 'logo')); ?></a>
           </div>
 
-          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 hidden-xs airplain">
-            <?php echo $this->Html->image('/css/img/airplain.png'); ?>
-            <?php echo $this->Html->image('/css/img/airplain-line.png', array('class' => 'airplain-line hidden-sm')); ?>
+          <div class="hidden-xs col-sm-3 col-md-3 col-lg-3 airplain">
+            <?php echo $this->Html->image('/css/img/airplain-active.png', array('class' => 'airplain-icon')); ?>
+            <?php echo $this->Html->image('/css/img/airplain-line-inactive.png', array('class' => 'airplain-line hidden-sm')); ?>
             <div class="caption">
               <h3>Step 1</h3>
               <p>Select Your Adventure</p>
             </div>
           </div>
 
-          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 hidden-xs airplain">
-            <?php echo $this->Html->image('/css/img/airplain.png'); ?>
-            <?php echo $this->Html->image('/css/img/airplain-line.png', array('class' => 'airplain-line hidden-sm')); ?>
+          <div class="hidden-xs col-sm-3 col-md-3 col-lg-3 airplain">
+            <?php echo $this->Html->image('/css/img/airplain-inactive.png', array('class' => 'airplain-icon')); ?>
+            <?php echo $this->Html->image('/css/img/airplain-line-inactive.png', array('class' => 'airplain-line hidden-sm')); ?>
             <div class="caption">
               <h3>Step 2</h3>
               <p>Select Your Destinations</p>
             </div>
           </div>
 
-          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 hidden-xs airplain">
-            <?php echo $this->Html->image('/css/img/airplain.png'); ?>
+          <div class="hidden-xs col-sm-3 col-md-3 col-lg-3 airplain">
+            <?php echo $this->Html->image('/css/img/airplain-inactive.png', array('class' => 'airplain-icon')); ?>
             <div class="caption">
               <h3>Step 3</h3>
               <p>Confirm Details</p>
@@ -90,6 +90,8 @@
     </div><!-- /.container-fluid -->
   </nav>
 
+  <div class="clearfix"></div>
+
   <?php echo $this->Session->flash(); ?>
 
   <div id="content-body">
@@ -97,6 +99,10 @@
   </div>
 
   </div>
+
+  <footer>
+    <span>Copyright: Xploreworld</span> 
+  </footer>
 
 </body>
 

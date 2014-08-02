@@ -30,7 +30,9 @@
     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 window-column">
       <div class="window">
         <a href="http://127.0.0.1/xploreworld/map_sample">
-        <div class="window-frame"></div>
+        <div class="window-frame inner"></div>
+        <div class="window-frame cover"></div>
+        <div class="window-frame outer"></div>
           <?php echo $this->Html->image('/uploads/surfing.jpg', array('class' => 'window-content')); ?>
         </a>
       </div>
@@ -39,8 +41,10 @@
     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 window-column">
       <div class="window">
         <a href="http://127.0.0.1/xploreworld/map_sample">
-        <div class="window-frame"></div>
-          <?php echo $this->Html->image('/uploads/surfing.jpg', array('class' => 'window-content')); ?>
+        <div class="window-frame inner"></div>
+        <div class="window-frame cover"></div>
+        <div class="window-frame outer"></div>
+          <?php echo $this->Html->image('/uploads/beach.jpg', array('class' => 'window-content')); ?>
         </a>
       </div>
     </div>
@@ -48,8 +52,10 @@
     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 window-column">
       <div class="window">
         <a href="http://127.0.0.1/xploreworld/map_sample">
-        <div class="window-frame"></div>
-          <?php echo $this->Html->image('/uploads/surfing.jpg', array('class' => 'window-content')); ?>
+        <div class="window-frame inner"></div>
+        <div class="window-frame cover"></div>
+        <div class="window-frame outer"></div>
+          <?php echo $this->Html->image('/uploads/historic.jpg', array('class' => 'window-content')); ?>
         </a>
       </div>
     </div>
@@ -57,8 +63,10 @@
     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 window-column">
       <div class="window">
         <a href="http://127.0.0.1/xploreworld/map_sample">
-        <div class="window-frame"></div>
-          <?php echo $this->Html->image('/uploads/surfing.jpg', array('class' => 'window-content')); ?>
+        <div class="window-frame inner"></div>
+        <div class="window-frame cover"></div>
+        <div class="window-frame outer"></div>
+          <?php echo $this->Html->image('/uploads/nature.jpg', array('class' => 'window-content')); ?>
         </a>
       </div>
     </div>
@@ -66,3 +74,6 @@
   </div> 
 
 </div>
+<?php
+echo $this->Html->script('home.js');
+?>

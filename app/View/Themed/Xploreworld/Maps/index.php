@@ -6,13 +6,18 @@ echo $this->Html->css('maps.css');
 
   <div class="contentarea">
 
+    <?php echo $this->Html->image('/css/img/label-map.png', array('class' => 'section-label')); ?>
+
     <div id="map-canvas"></div>
+
+    <?php echo $this->Html->image('/css/img/label-adventure.png', array('class' => 'section-label')); ?>
+
     <div id="selected-list-box">
       <div class="ticket-body row">
-        <div class="col-md-3">
+        <div class="hidden-xs col-md-3">
           <?php echo $this->Html->image('/css/img/barcode.gif', array('class' => 'barcode')); ?>
         </div>
-        <div class="col-md-9">
+        <div class="col-xs-12 col-md-9">
           <ul id="selected-list"></ul>
           <div class="clearfix"></div>
         </div>
@@ -33,7 +38,7 @@ echo $this->Html->css('maps.css');
 
     <div class="form-area">
 
-      <?php echo $this->Html->image('/css/img/label-seats.png', array('class' => 'form-label')); ?>
+      <?php echo $this->Html->image('/css/img/label-seats.png', array('class' => 'section-label')); ?>
 
       <div class="form-group row">
 
@@ -60,7 +65,7 @@ echo $this->Html->css('maps.css');
 
       </div>
 
-      <?php echo $this->Html->image('/css/img/label-details.png', array('class' => 'form-label')); ?>
+      <?php echo $this->Html->image('/css/img/label-details.png', array('class' => 'section-label')); ?>
 
       <div class="form-group">
         <input id="first_name" class="form-control" type="text" placeholder="First Name" />

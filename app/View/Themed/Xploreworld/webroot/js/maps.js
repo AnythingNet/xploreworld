@@ -2,15 +2,16 @@ if (!mapStyle) {
   var mapStyle = null;
 }
 
-var Xplore = {
-  map: null,
+var Xplore = { map: null,
   //markers: markerObj,
   markers: [],
   datePickerOption : {
     dateFormat: 'dd/mm/yy'
   },
   mapStyler: mapStyle,
-  infoWindows: []
+  infoWindows: [],
+  mapStepIndex: 1,
+  formStepIndex: 2
 }
 
 var init = function() {
@@ -135,6 +136,42 @@ var renderMarkers = function() {
 
 }
 
+var changeSteps = function(active_index) {
+  
+  $('.airplain-icon').each(function(i, data){
+
+    var path = $(this).attr('src');
+    var replaced_path = '';
+
+    if (i <= active_index) {
+      replaced_path = path.replace('-inactive', '-active');
+    } else {
+      replaced_path = path.replace('-active', '-inactive');
+    }
+
+    $(this).attr('src', replaced_path);
+
+  });
+
+  var line_index = active_index -1;
+
+  $('.airplain-line').each(function(i, data){
+
+    var path = $(this).attr('src');
+    var replaced_path = '';
+
+    if (i <= line_index) {
+      replaced_path = path.replace('-inactive', '-active');
+    } else {
+      replaced_path = path.replace('-active', '-inactive');
+    }
+
+    $(this).attr('src', replaced_path);
+
+  });
+
+}
+
 //append selected labels as hidden for #user-form
 var mapDone = function() {
 
@@ -164,6 +201,9 @@ var mapDone = function() {
 
     });
 
+    //updates labels on header
+    changeSteps(Xplore.formStepIndex);
+
   }
   
 }
@@ -179,15 +219,16 @@ var formDone = function(e) {
     email: $('#email').val(),
     phone: $('#phone').val(),
     comment: $('#comment').val()
+    //items: []
   }
 
-  console.log($('.items').val());
-
+  /*
   var items = $('.items');
 
   for (var i = 0; i < items.length; i++) {
     params.items.push($(items[i]).val());
   }
+  */
 
   var options = {
     type: 'post', 
@@ -196,12 +237,14 @@ var formDone = function(e) {
     dataType: 'json', 
     success: function(data) {
 
+
       if (data.status == 'success') {
 
         $('#success-modal .modal-body').text(data.message);
         $('#success-modal').modal('show');
 
       }
+
       if (data.status == 'error') {
 
         var message = $('<p>').addClass('alert alert-danger').text(data.message);
@@ -220,14 +263,14 @@ var formDone = function(e) {
       }
 
     }
+
   }
 
-  //$.ajax(options);
+  $.ajax(options);
   
 }
 
 var formBack = function() {
-  console.log('bbb');
   $('.collapse').collapse('toggle');
 }
 
@@ -249,7 +292,13 @@ var redirectToHome = function() {
   window.location.href = homeUrl;
 }
 
+var scrollToTop = function() {
+  $('html, body').animate({scrollTop: 0});
+}
+
 $(function() {
+
+  changeSteps(Xplore.mapStepIndex);
 
   google.maps.event.addDomListener(window, 'load', init);
 
@@ -259,10 +308,14 @@ $(function() {
   $('#mapdone').on('click', mapDone);
   $('#formdone').on('click', formDone);
 
-  $('#formback').on('click', formBack);
+  $('#formback').on('click', function() {
+    formBack();
+    changeSteps(Xplore.mapStepIndex);
+  });
 
   $('body').on('DOMNodeInserted', fadeOutAlerts);
 
   $('#success-modal').on('hidden.bs.modal', redirectToHome);
+  $('.collapse').on('shown.bs.collapse', scrollToTop);
 
 });

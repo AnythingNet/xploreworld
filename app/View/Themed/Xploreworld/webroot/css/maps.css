@@ -12,10 +12,34 @@ li {
 }
 
 .contentarea {
-  width: 100%;
+  width: 85%;
   max-width: 980px;
   margin: 0 auto;
+  padding: 8px 0;
 }
+
+.section-label {
+  display: block;
+  margin: 10px auto 26px;
+}
+
+@media (max-width: 520px) {
+ 
+  .section-label {
+    width: 300px;
+  } 
+
+}
+
+@media (max-width: 400px) {
+ 
+  .section-label {
+    width: 280px;
+  } 
+
+}
+
+/* map area */
 
 #map-canvas {
   width: 100%;
@@ -25,6 +49,12 @@ li {
 
 #selected-list {
   margin: 20px 45px;
+}
+
+@media (max-width: 767px) {
+  #selected-list {
+    margin: 0;
+  }
 }
 
 #selected-list li {
@@ -105,9 +135,4 @@ div.ui-datepicker {
   width: 100%;
   max-width: 564px;
   margin: 0 auto;
-}
-
-.form-label {
-  display: block;
-  margin: 10px auto 26px;
 }

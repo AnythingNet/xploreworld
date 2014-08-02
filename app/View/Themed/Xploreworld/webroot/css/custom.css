@@ -1,8 +1,11 @@
 .header-shelf {
+  width: 100%;
   height: 183px;
   background: url('img/shelf.png') repeat-x ;
   margin: 0;
   border: none;
+  position: fixed;
+  z-index: 100;
 }
 
 .navbar-header.header-items {
@@ -12,8 +15,13 @@
   float: none;
 }
 
+.logo-link {
+  width: 100%;
+}
+
 .logo {
-  width: 100%; 
+  margin: 0 auto;
+  display: block;
 }
 
 .airplain {
@@ -37,4 +45,16 @@
   background: -ms-linear-gradient(top,  #a8b9c3 0%,#c6d3da 15%,#c6d3da 100%); /* IE10+ */
   background: linear-gradient(to bottom,  #a8b9c3 0%,#c6d3da 15%,#c6d3da 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8b9c3', endColorstr='#c6d3da',GradientType=0 ); /* IE6-9 */
+  margin-top: 183px;
+  z-index: 1;
 }
+
+footer {
+  width: 100%;
+  height: 90px;
+  background: #787E81;
+  text-align: center;
+  padding: 34px 0 0;
+  color: #FFF;
+}
+

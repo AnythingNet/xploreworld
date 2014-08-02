@@ -1,5 +1,5 @@
 .home-container {
-  width: 100%;
+  width: 80%;
   max-width: 1070px;
   margin: 0 auto;
   padding: 0 10px;
@@ -17,18 +17,20 @@
 @media (max-width: 520px) {
  
   .label img {
-    width: 400px;
+    width: 100%;
   } 
 
 }
 
+/*
 @media (max-width: 400px) {
  
   .label img {
-    width: 280px;
+    width: 260px;
   } 
 
 }
+*/
 
 .window {
   width: 250px;
@@ -37,18 +39,74 @@
   position: relative;
 }
 
-.window-frame {
+.window-frame.outer,
+.window-frame.inner {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url('img/window.png') no-repeat;
+}
+
+.window-frame.outer {
+  background: url('img/window-outer.png') no-repeat;
+  z-index: 5;
+}
+
+.window-frame.cover {
+  background-color: #FFF;
+  opacity: 0.8;
+  z-index: 4;
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  left: 27px;
+  top: 39px; 
+  border-radius: 100px;
+}
+
+.window-frame.cover.open {
+  -webkit-animation: openWindow 0.5s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.window-frame.cover.closed {
+  -webkit-animation: closeWindow 0.5s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes closeWindow {
+    from {
+      height: 40px;
+    }
+    to {
+      height: 199px;
+    }
+}
+
+@-webkit-keyframes openWindow {
+    from {
+      height: 199px;
+    }
+    to {
+      height: 40px;
+    }
+}
+
+/*
+@keyframes closeWindow {
+    from {background: red;}
+    to {background: yellow;}
+}
+*/
+
+.window-frame.inner {
+  background: url('img/window-inner.png') no-repeat;
   z-index: 3;
 }
 
 .window-content {
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 165px;
+  height: 165px;
   top: 76px;
   left: 48px;
   z-index: 2;
@@ -56,6 +114,7 @@
 
 .window-body {
   padding-top: 122px;
+  padding-bottom: 86px;
 }
 
 .window-column {
