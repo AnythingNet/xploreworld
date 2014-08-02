@@ -16967,3 +16967,30 @@ Stack Trace:
 #13 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
 #14 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #15 {main}
+2014-08-01 15:57:35 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/img/no_image.gif
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'img', 'no_image.gif')
+#1 E:\xampp\public_html\xploreworld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\xampp\public_html\xploreworld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-02 03:26:17 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/image
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'image')
+#1 E:\xampp\public_html\xploreworld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\xampp\public_html\xploreworld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-02 03:26:22 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/image/
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'image')
+#1 E:\xampp\public_html\xploreworld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\xampp\public_html\xploreworld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

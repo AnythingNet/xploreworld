@@ -8817,3 +8817,146 @@ Configure::bootstrap() - CORE/Cake/Core/Configure.php, line 92
 include - CORE/Cake/bootstrap.php, line 175
 [main] - APP/webroot/index.php, line 94
 
+2014-08-01 14:52:07 Debug: Notice (8): Undefined variable: Media in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 77]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 77
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 14:53:41 Debug: Notice (8): Undefined variable: Media in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 77]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 77
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 14:56:50 Debug: Notice (8): Undefined variable: Media in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 82]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 82
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 14:58:16 Debug: Notice (8): Undefined variable: Media in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 82]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 82
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 14:59:26 Debug: Notice (8): Undefined variable: Media in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 82]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 82
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 14:59:36 Debug: Notice (8): Undefined variable: Media in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 82]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 82
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 15:02:45 Debug: Notice (8): Undefined variable: Media in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 82]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 82
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 15:02:56 Debug: Notice (8): Undefined variable: Media in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 82]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 82
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 15:04:00 Debug: Notice (8): Undefined variable: Media in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 82]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 82
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 15:07:17 Debug: Notice (8): Undefined variable: Media in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 86]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 86
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 15:10:15 Debug: Notice (8): Undefined variable: Media in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 86]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 86
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 15:12:49 Debug: Notice (8): Undefined variable: Media in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 86]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 86
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 15:27:04 Debug: Notice (8): Undefined variable: Media in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 86]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 86
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+

@@ -7,6 +7,8 @@ App::uses('CustomFile', 'Vendor');
  */
 class Media extends AppModel {
 
+	public $actsAs = array('Containable');
+
 /**
  * Validation rules
  *

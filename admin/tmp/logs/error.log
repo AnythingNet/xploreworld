@@ -20057,3 +20057,569 @@ Request URL: /admin/js/jquery-1.10.2.min.map
 Stack Trace:
 #0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-07-31 16:05:25 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'cmsanyth_xplore\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /xploreworld/admin/
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 E:\xampp\public_html\xploreworld\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#4 E:\xampp\public_html\xploreworld\lib\Cake\Model\Model.php(3499): Model->setSource('pages')
+#5 E:\xampp\public_html\xploreworld\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#6 E:\xampp\public_html\xploreworld\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#7 E:\xampp\public_html\xploreworld\admin\Model\Page.php(70): Model->find('all', Array)
+#8 E:\xampp\public_html\xploreworld\admin\Controller\PagesController.php(24): Page->findAllWithLabel()
+#9 [internal function]: PagesController->index()
+#10 E:\xampp\public_html\xploreworld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#11 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#13 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-31 16:30:18 Error: [MissingControllerException] Controller class MapsController could not be found.
+Exception Attributes: array (
+  'class' => 'MapsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/maps/
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 16:30:27 Error: [MissingControllerException] Controller class MapsController could not be found.
+Exception Attributes: array (
+  'class' => 'MapsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/maps/
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 16:30:38 Error: [MissingControllerException] Controller class MapsController could not be found.
+Exception Attributes: array (
+  'class' => 'MapsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/maps/
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 16:32:27 Error: [MissingControllerException] Controller class MapsController could not be found.
+Exception Attributes: array (
+  'class' => 'MapsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/maps/
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 16:38:43 Error: [MissingViewException] View file "E:\xampp\public_html\xploreworld\admin\View\Maps\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\xampp\\public_html\\xploreworld\\admin\\View\\Maps\\index.ctp',
+)
+Request URL: /xploreworld/admin/maps/
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\xampp\public_html\xploreworld\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-31 16:53:00 Error: [MissingViewException] View file "E:\xampp\public_html\xploreworld\admin\View\Maps\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\xampp\\public_html\\xploreworld\\admin\\View\\Maps\\index.ctp',
+)
+Request URL: /xploreworld/admin/maps/
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\xampp\public_html\xploreworld\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-01 14:10:40 Error: [MissingViewException] View file "E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\xampp\\public_html\\xploreworld\\admin\\View\\Maps\\setting_airports.ctp',
+)
+Request URL: /xploreworld/admin/maps/setting_airports?id=1
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\xampp\public_html\xploreworld\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-01 14:10:44 Error: [MissingViewException] View file "E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\xampp\\public_html\\xploreworld\\admin\\View\\Maps\\setting_airports.ctp',
+)
+Request URL: /xploreworld/admin/maps/setting_airports?id=1
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\xampp\public_html\xploreworld\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-01 14:10:46 Error: [MissingViewException] View file "E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\xampp\\public_html\\xploreworld\\admin\\View\\Maps\\setting_airports.ctp',
+)
+Request URL: /xploreworld/admin/maps/setting_airports?id=1
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\xampp\public_html\xploreworld\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-01 14:11:00 Error: [MissingViewException] View file "E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\xampp\\public_html\\xploreworld\\admin\\View\\Maps\\setting_airports.ctp',
+)
+Request URL: /xploreworld/admin/maps/setting_airports?id=1
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\xampp\public_html\xploreworld\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-01 14:38:13 Error: Fatal Error (1): Call to undefined method View::script() in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 96]
+2014-08-01 14:38:13 Error: [FatalErrorException] Call to undefined method View::script()
+Request URL: /xploreworld/admin/maps/setting_airports?id=1
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'E:\\xampp\\public...', 96)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'E:\\xampp\\public...', 96, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'E:\\xampp\\public...', 96, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-01 14:38:22 Error: Fatal Error (1): Call to undefined method View::script() in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 96]
+2014-08-01 14:38:22 Error: [FatalErrorException] Call to undefined method View::script()
+Request URL: /xploreworld/admin/maps/setting_airports?id=1
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'E:\\xampp\\public...', 96)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'E:\\xampp\\public...', 96, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'E:\\xampp\\public...', 96, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-01 14:52:07 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 77]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 77
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 14:53:41 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 77]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 77
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 14:56:50 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 82]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 82
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 14:58:16 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 82]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 82
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 14:59:26 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 82]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 82
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 14:59:36 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 82]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 82
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 15:02:45 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 82]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 82
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 15:02:56 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 82]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 82
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 15:04:00 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 82]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 82
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 15:07:17 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 86]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 86
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 15:10:15 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 86]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 86
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 15:12:49 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 86]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 86
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 15:27:04 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\public_html\xploreworld\admin\View\Maps\setting_airports.ctp, line 86]
+Trace:
+include - APP\View\Maps\setting_airports.ctp, line 86
+View::_evaluate() - CORE\Cake\View\View.php, line 935
+View::_render() - CORE\Cake\View\View.php, line 897
+View::render() - CORE\Cake\View\View.php, line 466
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-08-01 16:13:11 Error: Fatal Error (64): Only variables can be passed by reference in [E:\xampp\public_html\xploreworld\admin\View\Maps\index.ctp, line 71]
+2014-08-01 16:13:11 Error: [FatalErrorException] Only variables can be passed by reference
+Request URL: /xploreworld/admin/maps/index
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Only variables ...', 'E:\\xampp\\public...', 71)
+#1 [internal function]: ErrorHandler::handleError(64, 'Only variables ...', 'E:\\xampp\\public...', 71, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Only variables ...', 'E:\\xampp\\public...', 71, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-01 16:13:17 Error: Fatal Error (64): Only variables can be passed by reference in [E:\xampp\public_html\xploreworld\admin\View\Maps\index.ctp, line 71]
+2014-08-01 16:13:17 Error: [FatalErrorException] Only variables can be passed by reference
+Request URL: /xploreworld/admin/maps/index
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Only variables ...', 'E:\\xampp\\public...', 71)
+#1 [internal function]: ErrorHandler::handleError(64, 'Only variables ...', 'E:\\xampp\\public...', 71, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Only variables ...', 'E:\\xampp\\public...', 71, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-01 16:13:21 Error: Fatal Error (64): Only variables can be passed by reference in [E:\xampp\public_html\xploreworld\admin\View\Maps\index.ctp, line 71]
+2014-08-01 16:13:21 Error: [FatalErrorException] Only variables can be passed by reference
+Request URL: /xploreworld/admin/maps/index
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Only variables ...', 'E:\\xampp\\public...', 71)
+#1 [internal function]: ErrorHandler::handleError(64, 'Only variables ...', 'E:\\xampp\\public...', 71, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Only variables ...', 'E:\\xampp\\public...', 71, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 04:14:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Airport.name' in 'field list'
+Request URL: /xploreworld/admin/maps/setting_airports?id=1
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\xampp\public_html\xploreworld\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Airport...', Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `Airport...', Array, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Airport...', false)
+#4 E:\xampp\public_html\xploreworld\lib\Cake\Model\Model.php(2903): DboSource->read(Object(Map), Array)
+#5 E:\xampp\public_html\xploreworld\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 E:\xampp\public_html\xploreworld\admin\Controller\MapsController.php(83): Model->find('all', Array)
+#7 [internal function]: MapsController->setting_airports()
+#8 E:\xampp\public_html\xploreworld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MapsController), Array)
+#9 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#11 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-02 04:27:10 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 45043712 bytes) in [E:\xampp\public_html\xploreworld\admin\View\Layouts\anythingnet.ctp, line 82]
+2014-08-02 04:27:10 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 45043712 bytes)
+Request URL: /xploreworld/admin/maps/setting_airports?id=1
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', 'E:\\xampp\\public...', 82)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', 'E:\\xampp\\public...', 82, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', 'E:\\xampp\\public...', 82, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 04:51:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Map.id' in 'where clause'
+Request URL: /xploreworld/admin/maps/setting_airports?id=1
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\xampp\public_html\xploreworld\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `MapsAir...', Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `MapsAir...', Array, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `MapsAir...', false)
+#4 E:\xampp\public_html\xploreworld\lib\Cake\Model\Model.php(2903): DboSource->read(Object(MapsAirport), Array)
+#5 E:\xampp\public_html\xploreworld\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 E:\xampp\public_html\xploreworld\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 E:\xampp\public_html\xploreworld\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate(NULL, Array, Array)
+#8 E:\xampp\public_html\xploreworld\admin\Controller\MapsController.php(85): Controller->paginate()
+#9 [internal function]: MapsController->setting_airports()
+#10 E:\xampp\public_html\xploreworld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MapsController), Array)
+#11 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#13 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-08-02 06:04:00 Error: [MissingViewException] View file "E:\xampp\public_html\xploreworld\admin\View\Maps\edit_airport.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\xampp\\public_html\\xploreworld\\admin\\View\\Maps\\edit_airport.ctp',
+)
+Request URL: /xploreworld/admin/maps/edit_airport
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\xampp\public_html\xploreworld\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-02 06:05:07 Error: [MissingViewException] View file "E:\xampp\public_html\xploreworld\admin\View\Maps\edit_airport.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\xampp\\public_html\\xploreworld\\admin\\View\\Maps\\edit_airport.ctp',
+)
+Request URL: /xploreworld/admin/maps/edit_airport
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\xampp\public_html\xploreworld\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-02 08:20:38 Error: Fatal Error (64): Cannot redeclare MapsController::delete() in [E:\xampp\public_html\xploreworld\admin\Controller\MapsController.php, line 57]
+2014-08-02 08:20:38 Error: [FatalErrorException] Cannot redeclare MapsController::delete()
+Request URL: /xploreworld/admin/maps/index
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\\xampp\\public...', 57)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\\xampp\\public...', 57, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\\xampp\\public...', 57, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 09:41:34 Error: Fatal Error (64): Only variables can be passed by reference in [E:\xampp\public_html\xploreworld\admin\View\Maps\index.ctp, line 77]
+2014-08-02 09:41:34 Error: [FatalErrorException] Only variables can be passed by reference
+Request URL: /xploreworld/admin/maps/index
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Only variables ...', 'E:\\xampp\\public...', 77)
+#1 [internal function]: ErrorHandler::handleError(64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 09:41:40 Error: Fatal Error (64): Only variables can be passed by reference in [E:\xampp\public_html\xploreworld\admin\View\Maps\index.ctp, line 77]
+2014-08-02 09:41:40 Error: [FatalErrorException] Only variables can be passed by reference
+Request URL: /xploreworld/admin/maps/index
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Only variables ...', 'E:\\xampp\\public...', 77)
+#1 [internal function]: ErrorHandler::handleError(64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 09:41:45 Error: Fatal Error (64): Only variables can be passed by reference in [E:\xampp\public_html\xploreworld\admin\View\Maps\index.ctp, line 77]
+2014-08-02 09:41:45 Error: [FatalErrorException] Only variables can be passed by reference
+Request URL: /xploreworld/admin/maps/index
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Only variables ...', 'E:\\xampp\\public...', 77)
+#1 [internal function]: ErrorHandler::handleError(64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 09:41:49 Error: Fatal Error (64): Only variables can be passed by reference in [E:\xampp\public_html\xploreworld\admin\View\Maps\index.ctp, line 77]
+2014-08-02 09:41:49 Error: [FatalErrorException] Only variables can be passed by reference
+Request URL: /xploreworld/admin/maps/index
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Only variables ...', 'E:\\xampp\\public...', 77)
+#1 [internal function]: ErrorHandler::handleError(64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 09:41:56 Error: Fatal Error (64): Only variables can be passed by reference in [E:\xampp\public_html\xploreworld\admin\View\Maps\index.ctp, line 77]
+2014-08-02 09:41:56 Error: [FatalErrorException] Only variables can be passed by reference
+Request URL: /xploreworld/admin/maps/index
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Only variables ...', 'E:\\xampp\\public...', 77)
+#1 [internal function]: ErrorHandler::handleError(64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 09:42:00 Error: Fatal Error (64): Only variables can be passed by reference in [E:\xampp\public_html\xploreworld\admin\View\Maps\index.ctp, line 77]
+2014-08-02 09:42:00 Error: [FatalErrorException] Only variables can be passed by reference
+Request URL: /xploreworld/admin/maps/index
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Only variables ...', 'E:\\xampp\\public...', 77)
+#1 [internal function]: ErrorHandler::handleError(64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 09:42:05 Error: Fatal Error (64): Only variables can be passed by reference in [E:\xampp\public_html\xploreworld\admin\View\Maps\index.ctp, line 77]
+2014-08-02 09:42:05 Error: [FatalErrorException] Only variables can be passed by reference
+Request URL: /xploreworld/admin/maps/index
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Only variables ...', 'E:\\xampp\\public...', 77)
+#1 [internal function]: ErrorHandler::handleError(64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 09:42:22 Error: Fatal Error (64): Only variables can be passed by reference in [E:\xampp\public_html\xploreworld\admin\View\Maps\index.ctp, line 77]
+2014-08-02 09:42:22 Error: [FatalErrorException] Only variables can be passed by reference
+Request URL: /xploreworld/admin/maps/index
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Only variables ...', 'E:\\xampp\\public...', 77)
+#1 [internal function]: ErrorHandler::handleError(64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 09:42:26 Error: Fatal Error (64): Only variables can be passed by reference in [E:\xampp\public_html\xploreworld\admin\View\Maps\index.ctp, line 77]
+2014-08-02 09:42:26 Error: [FatalErrorException] Only variables can be passed by reference
+Request URL: /xploreworld/admin/maps/index
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Only variables ...', 'E:\\xampp\\public...', 77)
+#1 [internal function]: ErrorHandler::handleError(64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 09:42:48 Error: Fatal Error (64): Only variables can be passed by reference in [E:\xampp\public_html\xploreworld\admin\View\Maps\index.ctp, line 77]
+2014-08-02 09:42:48 Error: [FatalErrorException] Only variables can be passed by reference
+Request URL: /xploreworld/admin/maps/
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Only variables ...', 'E:\\xampp\\public...', 77)
+#1 [internal function]: ErrorHandler::handleError(64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 09:42:53 Error: Fatal Error (64): Only variables can be passed by reference in [E:\xampp\public_html\xploreworld\admin\View\Maps\index.ctp, line 77]
+2014-08-02 09:42:53 Error: [FatalErrorException] Only variables can be passed by reference
+Request URL: /xploreworld/admin/maps/
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Only variables ...', 'E:\\xampp\\public...', 77)
+#1 [internal function]: ErrorHandler::handleError(64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Only variables ...', 'E:\\xampp\\public...', 77, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 09:45:08 Error: [MissingControllerException] Controller class XploreworldController could not be found.
+Exception Attributes: array (
+  'class' => 'XploreworldController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/xploreworld/uploads/Koala.jpg
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-02 09:45:08 Error: [MissingControllerException] Controller class XploreworldController could not be found.
+Exception Attributes: array (
+  'class' => 'XploreworldController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/xploreworld/uploads/Page-01.jpg
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-02 09:45:22 Error: [MissingControllerException] Controller class XploreworldController could not be found.
+Exception Attributes: array (
+  'class' => 'XploreworldController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/xploreworld/uploads/Page-01.jpg
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-02 09:45:37 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/uploads/Koala.jpg
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-02 09:45:37 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/uploads/Page-01.jpg
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-02 09:45:42 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/uploads/Page-01.jpg
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
