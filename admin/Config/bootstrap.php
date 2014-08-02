@@ -115,9 +115,9 @@ Configure::write('File.path', dirname(APP) . DS . 'app' . DS . 'webroot' . DS . 
 
 /* Custom: file url : changes depending on document root  */
 if (strcmp(basename(dirname(APP)), basename($_SERVER['DOCUMENT_ROOT'])) == 0) {
-  Configure::write('File.url', FULL_BASE_URL . DS . 'uploads' . DS);
+  Configure::write('File.url', FULL_BASE_URL . '/' . 'uploads' . '/');
 } else {
-  Configure::write('File.url', FULL_BASE_URL . DS . basename(dirname(APP)) . DS . 'uploads' . DS);
+  Configure::write('File.url', FULL_BASE_URL . '/' . basename(dirname(APP)) . '/' . 'uploads' . '/');
 }
 
 /* Custom: theme location  */
