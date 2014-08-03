@@ -140,6 +140,9 @@ class MapsController extends AppController {
 			'conditions' => array(
 				'MapsAirport.map_id' => $map_id
 			)
+			,'order' => array(
+				'Airport.name' => 'ASC'
+			)
 		);
 
 		$this->MapsAirport->bindModel(
