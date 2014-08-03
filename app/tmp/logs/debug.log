@@ -67660,3 +67660,835 @@ array(
 		)
 	)
 )
+2014-08-02 14:11:30 Debug: 
+PagesController::index() - APP/Controller/PagesController.php, line 40
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+array(
+	(int) 0 => array(
+		'Map' => array(
+			'id' => '1',
+			'media_id' => '6',
+			'name' => 'sample',
+			'slug' => 'sample',
+			'created' => '0000-00-00 00:00:00',
+			'modified' => '0000-00-00 00:00:00'
+		),
+		'Media' => array(
+			'id' => '6',
+			'description' => null,
+			'alt' => '',
+			'path' => 'surfing.jpg',
+			'created' => '2014-08-02 10:48:06',
+			'modified' => '2014-08-02 10:48:06'
+		),
+		'Airport' => array(
+			(int) 0 => array(
+				[maximum depth reached]
+			),
+			(int) 1 => array(
+				[maximum depth reached]
+			),
+			(int) 2 => array(
+				[maximum depth reached]
+			),
+			(int) 3 => array(
+				[maximum depth reached]
+			),
+			(int) 4 => array(
+				[maximum depth reached]
+			),
+			(int) 5 => array(
+				[maximum depth reached]
+			)
+		)
+	),
+	(int) 1 => array(
+		'Map' => array(
+			'id' => '3',
+			'media_id' => '7',
+			'name' => 'hogehoge',
+			'slug' => 'lmao',
+			'created' => '2014-08-02 10:56:58',
+			'modified' => '2014-08-02 10:56:58'
+		),
+		'Media' => array(
+			'id' => '7',
+			'description' => null,
+			'alt' => '',
+			'path' => 'beach.jpg',
+			'created' => '2014-08-02 10:48:14',
+			'modified' => '2014-08-02 10:48:14'
+		),
+		'Airport' => array()
+	),
+	(int) 2 => array(
+		'Map' => array(
+			'id' => '4',
+			'media_id' => '8',
+			'name' => 'Historical places',
+			'slug' => 'history',
+			'created' => '2014-08-02 11:14:46',
+			'modified' => '2014-08-02 11:14:46'
+		),
+		'Media' => array(
+			'id' => '8',
+			'description' => null,
+			'alt' => '',
+			'path' => 'historic.jpg',
+			'created' => '2014-08-02 10:48:22',
+			'modified' => '2014-08-02 10:48:22'
+		),
+		'Airport' => array()
+	),
+	(int) 3 => array(
+		'Map' => array(
+			'id' => '5',
+			'media_id' => '9',
+			'name' => 'Nature',
+			'slug' => 'nature',
+			'created' => '2014-08-02 11:15:21',
+			'modified' => '2014-08-02 11:15:21'
+		),
+		'Media' => array(
+			'id' => '9',
+			'description' => null,
+			'alt' => '',
+			'path' => 'nature.jpg',
+			'created' => '2014-08-02 10:48:27',
+			'modified' => '2014-08-02 10:48:27'
+		),
+		'Airport' => array()
+	)
+)
+2014-08-02 14:12:40 Debug: 
+PagesController::index() - APP/Controller/PagesController.php, line 40
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+array(
+	(int) 0 => array(
+		'Map' => array(
+			'id' => '1',
+			'media_id' => '6',
+			'name' => 'sample',
+			'slug' => 'sample',
+			'created' => '0000-00-00 00:00:00',
+			'modified' => '0000-00-00 00:00:00'
+		),
+		'Media' => array(
+			'id' => '6',
+			'description' => null,
+			'alt' => '',
+			'path' => 'surfing.jpg',
+			'created' => '2014-08-02 10:48:06',
+			'modified' => '2014-08-02 10:48:06'
+		),
+		'Airport' => array(
+			(int) 0 => array(
+				[maximum depth reached]
+			),
+			(int) 1 => array(
+				[maximum depth reached]
+			),
+			(int) 2 => array(
+				[maximum depth reached]
+			),
+			(int) 3 => array(
+				[maximum depth reached]
+			),
+			(int) 4 => array(
+				[maximum depth reached]
+			),
+			(int) 5 => array(
+				[maximum depth reached]
+			)
+		)
+	),
+	(int) 1 => array(
+		'Map' => array(
+			'id' => '3',
+			'media_id' => '7',
+			'name' => 'hogehoge',
+			'slug' => 'lmao',
+			'created' => '2014-08-02 10:56:58',
+			'modified' => '2014-08-02 10:56:58'
+		),
+		'Media' => array(
+			'id' => '7',
+			'description' => null,
+			'alt' => '',
+			'path' => 'beach.jpg',
+			'created' => '2014-08-02 10:48:14',
+			'modified' => '2014-08-02 10:48:14'
+		),
+		'Airport' => array()
+	),
+	(int) 2 => array(
+		'Map' => array(
+			'id' => '4',
+			'media_id' => '8',
+			'name' => 'Historical places',
+			'slug' => 'history',
+			'created' => '2014-08-02 11:14:46',
+			'modified' => '2014-08-02 11:14:46'
+		),
+		'Media' => array(
+			'id' => '8',
+			'description' => null,
+			'alt' => '',
+			'path' => 'historic.jpg',
+			'created' => '2014-08-02 10:48:22',
+			'modified' => '2014-08-02 10:48:22'
+		),
+		'Airport' => array()
+	),
+	(int) 3 => array(
+		'Map' => array(
+			'id' => '5',
+			'media_id' => '9',
+			'name' => 'Nature',
+			'slug' => 'nature',
+			'created' => '2014-08-02 11:15:21',
+			'modified' => '2014-08-02 11:15:21'
+		),
+		'Media' => array(
+			'id' => '9',
+			'description' => null,
+			'alt' => '',
+			'path' => 'nature.jpg',
+			'created' => '2014-08-02 10:48:27',
+			'modified' => '2014-08-02 10:48:27'
+		),
+		'Airport' => array()
+	)
+)
+2014-08-02 14:14:54 Debug: 
+PagesController::index() - APP/Controller/PagesController.php, line 40
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+array(
+	(int) 0 => array(
+		'Map' => array(
+			'id' => '1',
+			'media_id' => '6',
+			'name' => 'sample',
+			'slug' => 'sample',
+			'created' => '0000-00-00 00:00:00',
+			'modified' => '0000-00-00 00:00:00'
+		),
+		'Media' => array(
+			'id' => '6',
+			'description' => null,
+			'alt' => '',
+			'path' => 'surfing.jpg',
+			'created' => '2014-08-02 10:48:06',
+			'modified' => '2014-08-02 10:48:06'
+		),
+		'Airport' => array(
+			(int) 0 => array(
+				[maximum depth reached]
+			),
+			(int) 1 => array(
+				[maximum depth reached]
+			),
+			(int) 2 => array(
+				[maximum depth reached]
+			),
+			(int) 3 => array(
+				[maximum depth reached]
+			),
+			(int) 4 => array(
+				[maximum depth reached]
+			),
+			(int) 5 => array(
+				[maximum depth reached]
+			)
+		)
+	),
+	(int) 1 => array(
+		'Map' => array(
+			'id' => '3',
+			'media_id' => '7',
+			'name' => 'hogehoge',
+			'slug' => 'lmao',
+			'created' => '2014-08-02 10:56:58',
+			'modified' => '2014-08-02 10:56:58'
+		),
+		'Media' => array(
+			'id' => '7',
+			'description' => null,
+			'alt' => '',
+			'path' => 'beach.jpg',
+			'created' => '2014-08-02 10:48:14',
+			'modified' => '2014-08-02 10:48:14'
+		),
+		'Airport' => array()
+	),
+	(int) 2 => array(
+		'Map' => array(
+			'id' => '4',
+			'media_id' => '8',
+			'name' => 'Historical places',
+			'slug' => 'history',
+			'created' => '2014-08-02 11:14:46',
+			'modified' => '2014-08-02 11:14:46'
+		),
+		'Media' => array(
+			'id' => '8',
+			'description' => null,
+			'alt' => '',
+			'path' => 'historic.jpg',
+			'created' => '2014-08-02 10:48:22',
+			'modified' => '2014-08-02 10:48:22'
+		),
+		'Airport' => array()
+	),
+	(int) 3 => array(
+		'Map' => array(
+			'id' => '5',
+			'media_id' => '9',
+			'name' => 'Nature',
+			'slug' => 'nature',
+			'created' => '2014-08-02 11:15:21',
+			'modified' => '2014-08-02 11:15:21'
+		),
+		'Media' => array(
+			'id' => '9',
+			'description' => null,
+			'alt' => '',
+			'path' => 'nature.jpg',
+			'created' => '2014-08-02 10:48:27',
+			'modified' => '2014-08-02 10:48:27'
+		),
+		'Airport' => array()
+	)
+)
+2014-08-02 14:15:04 Debug: 
+PagesController::index() - APP/Controller/PagesController.php, line 40
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+array(
+	(int) 0 => array(
+		'Map' => array(
+			'id' => '1',
+			'media_id' => '6',
+			'name' => 'sample',
+			'slug' => 'sample',
+			'created' => '0000-00-00 00:00:00',
+			'modified' => '0000-00-00 00:00:00'
+		),
+		'Media' => array(
+			'id' => '6',
+			'description' => null,
+			'alt' => '',
+			'path' => 'surfing.jpg',
+			'created' => '2014-08-02 10:48:06',
+			'modified' => '2014-08-02 10:48:06'
+		),
+		'Airport' => array(
+			(int) 0 => array(
+				[maximum depth reached]
+			),
+			(int) 1 => array(
+				[maximum depth reached]
+			),
+			(int) 2 => array(
+				[maximum depth reached]
+			),
+			(int) 3 => array(
+				[maximum depth reached]
+			),
+			(int) 4 => array(
+				[maximum depth reached]
+			),
+			(int) 5 => array(
+				[maximum depth reached]
+			)
+		)
+	),
+	(int) 1 => array(
+		'Map' => array(
+			'id' => '3',
+			'media_id' => '7',
+			'name' => 'hogehoge',
+			'slug' => 'lmao',
+			'created' => '2014-08-02 10:56:58',
+			'modified' => '2014-08-02 10:56:58'
+		),
+		'Media' => array(
+			'id' => '7',
+			'description' => null,
+			'alt' => '',
+			'path' => 'beach.jpg',
+			'created' => '2014-08-02 10:48:14',
+			'modified' => '2014-08-02 10:48:14'
+		),
+		'Airport' => array()
+	),
+	(int) 2 => array(
+		'Map' => array(
+			'id' => '4',
+			'media_id' => '8',
+			'name' => 'Historical places',
+			'slug' => 'history',
+			'created' => '2014-08-02 11:14:46',
+			'modified' => '2014-08-02 11:14:46'
+		),
+		'Media' => array(
+			'id' => '8',
+			'description' => null,
+			'alt' => '',
+			'path' => 'historic.jpg',
+			'created' => '2014-08-02 10:48:22',
+			'modified' => '2014-08-02 10:48:22'
+		),
+		'Airport' => array()
+	),
+	(int) 3 => array(
+		'Map' => array(
+			'id' => '5',
+			'media_id' => '9',
+			'name' => 'Nature',
+			'slug' => 'nature',
+			'created' => '2014-08-02 11:15:21',
+			'modified' => '2014-08-02 11:15:21'
+		),
+		'Media' => array(
+			'id' => '9',
+			'description' => null,
+			'alt' => '',
+			'path' => 'nature.jpg',
+			'created' => '2014-08-02 10:48:27',
+			'modified' => '2014-08-02 10:48:27'
+		),
+		'Airport' => array()
+	)
+)
+2014-08-02 14:15:58 Debug: 
+PagesController::index() - APP/Controller/PagesController.php, line 40
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+array(
+	(int) 0 => array(
+		'Map' => array(
+			'id' => '1',
+			'media_id' => '6',
+			'name' => 'sample',
+			'slug' => 'sample',
+			'created' => '0000-00-00 00:00:00',
+			'modified' => '0000-00-00 00:00:00'
+		),
+		'Media' => array(
+			'id' => '6',
+			'description' => null,
+			'alt' => '',
+			'path' => 'surfing.jpg',
+			'created' => '2014-08-02 10:48:06',
+			'modified' => '2014-08-02 10:48:06'
+		),
+		'Airport' => array(
+			(int) 0 => array(
+				[maximum depth reached]
+			),
+			(int) 1 => array(
+				[maximum depth reached]
+			),
+			(int) 2 => array(
+				[maximum depth reached]
+			),
+			(int) 3 => array(
+				[maximum depth reached]
+			),
+			(int) 4 => array(
+				[maximum depth reached]
+			),
+			(int) 5 => array(
+				[maximum depth reached]
+			)
+		)
+	),
+	(int) 1 => array(
+		'Map' => array(
+			'id' => '3',
+			'media_id' => '7',
+			'name' => 'hogehoge',
+			'slug' => 'lmao',
+			'created' => '2014-08-02 10:56:58',
+			'modified' => '2014-08-02 10:56:58'
+		),
+		'Media' => array(
+			'id' => '7',
+			'description' => null,
+			'alt' => '',
+			'path' => 'beach.jpg',
+			'created' => '2014-08-02 10:48:14',
+			'modified' => '2014-08-02 10:48:14'
+		),
+		'Airport' => array()
+	),
+	(int) 2 => array(
+		'Map' => array(
+			'id' => '4',
+			'media_id' => '8',
+			'name' => 'Historical places',
+			'slug' => 'history',
+			'created' => '2014-08-02 11:14:46',
+			'modified' => '2014-08-02 11:14:46'
+		),
+		'Media' => array(
+			'id' => '8',
+			'description' => null,
+			'alt' => '',
+			'path' => 'historic.jpg',
+			'created' => '2014-08-02 10:48:22',
+			'modified' => '2014-08-02 10:48:22'
+		),
+		'Airport' => array()
+	),
+	(int) 3 => array(
+		'Map' => array(
+			'id' => '5',
+			'media_id' => '9',
+			'name' => 'Nature',
+			'slug' => 'nature',
+			'created' => '2014-08-02 11:15:21',
+			'modified' => '2014-08-02 11:15:21'
+		),
+		'Media' => array(
+			'id' => '9',
+			'description' => null,
+			'alt' => '',
+			'path' => 'nature.jpg',
+			'created' => '2014-08-02 10:48:27',
+			'modified' => '2014-08-02 10:48:27'
+		),
+		'Airport' => array()
+	)
+)
+2014-08-02 14:16:05 Debug: 
+PagesController::index() - APP/Controller/PagesController.php, line 40
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+array(
+	(int) 0 => array(
+		'Map' => array(
+			'id' => '1',
+			'media_id' => '6',
+			'name' => 'sample',
+			'slug' => 'sample',
+			'created' => '0000-00-00 00:00:00',
+			'modified' => '0000-00-00 00:00:00'
+		),
+		'Media' => array(
+			'id' => '6',
+			'description' => null,
+			'alt' => '',
+			'path' => 'surfing.jpg',
+			'created' => '2014-08-02 10:48:06',
+			'modified' => '2014-08-02 10:48:06'
+		),
+		'Airport' => array(
+			(int) 0 => array(
+				[maximum depth reached]
+			),
+			(int) 1 => array(
+				[maximum depth reached]
+			),
+			(int) 2 => array(
+				[maximum depth reached]
+			),
+			(int) 3 => array(
+				[maximum depth reached]
+			),
+			(int) 4 => array(
+				[maximum depth reached]
+			),
+			(int) 5 => array(
+				[maximum depth reached]
+			)
+		)
+	),
+	(int) 1 => array(
+		'Map' => array(
+			'id' => '3',
+			'media_id' => '7',
+			'name' => 'hogehoge',
+			'slug' => 'lmao',
+			'created' => '2014-08-02 10:56:58',
+			'modified' => '2014-08-02 10:56:58'
+		),
+		'Media' => array(
+			'id' => '7',
+			'description' => null,
+			'alt' => '',
+			'path' => 'beach.jpg',
+			'created' => '2014-08-02 10:48:14',
+			'modified' => '2014-08-02 10:48:14'
+		),
+		'Airport' => array()
+	),
+	(int) 2 => array(
+		'Map' => array(
+			'id' => '4',
+			'media_id' => '8',
+			'name' => 'Historical places',
+			'slug' => 'history',
+			'created' => '2014-08-02 11:14:46',
+			'modified' => '2014-08-02 11:14:46'
+		),
+		'Media' => array(
+			'id' => '8',
+			'description' => null,
+			'alt' => '',
+			'path' => 'historic.jpg',
+			'created' => '2014-08-02 10:48:22',
+			'modified' => '2014-08-02 10:48:22'
+		),
+		'Airport' => array()
+	),
+	(int) 3 => array(
+		'Map' => array(
+			'id' => '5',
+			'media_id' => '9',
+			'name' => 'Nature',
+			'slug' => 'nature',
+			'created' => '2014-08-02 11:15:21',
+			'modified' => '2014-08-02 11:15:21'
+		),
+		'Media' => array(
+			'id' => '9',
+			'description' => null,
+			'alt' => '',
+			'path' => 'nature.jpg',
+			'created' => '2014-08-02 10:48:27',
+			'modified' => '2014-08-02 10:48:27'
+		),
+		'Airport' => array()
+	)
+)
+2014-08-02 14:20:59 Debug: 
+PagesController::index() - APP/Controller/PagesController.php, line 40
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+array(
+	(int) 0 => array(
+		'Map' => array(
+			'id' => '1',
+			'media_id' => '6',
+			'name' => 'sample',
+			'slug' => 'sample',
+			'created' => '0000-00-00 00:00:00',
+			'modified' => '0000-00-00 00:00:00'
+		),
+		'Media' => array(
+			'id' => '6',
+			'description' => null,
+			'alt' => '',
+			'path' => 'surfing.jpg',
+			'created' => '2014-08-02 10:48:06',
+			'modified' => '2014-08-02 10:48:06'
+		),
+		'Airport' => array(
+			(int) 0 => array(
+				[maximum depth reached]
+			),
+			(int) 1 => array(
+				[maximum depth reached]
+			),
+			(int) 2 => array(
+				[maximum depth reached]
+			),
+			(int) 3 => array(
+				[maximum depth reached]
+			),
+			(int) 4 => array(
+				[maximum depth reached]
+			),
+			(int) 5 => array(
+				[maximum depth reached]
+			)
+		)
+	),
+	(int) 1 => array(
+		'Map' => array(
+			'id' => '3',
+			'media_id' => '7',
+			'name' => 'hogehoge',
+			'slug' => 'lmao',
+			'created' => '2014-08-02 10:56:58',
+			'modified' => '2014-08-02 10:56:58'
+		),
+		'Media' => array(
+			'id' => '7',
+			'description' => null,
+			'alt' => '',
+			'path' => 'beach.jpg',
+			'created' => '2014-08-02 10:48:14',
+			'modified' => '2014-08-02 10:48:14'
+		),
+		'Airport' => array()
+	),
+	(int) 2 => array(
+		'Map' => array(
+			'id' => '4',
+			'media_id' => '8',
+			'name' => 'Historical places',
+			'slug' => 'history',
+			'created' => '2014-08-02 11:14:46',
+			'modified' => '2014-08-02 11:14:46'
+		),
+		'Media' => array(
+			'id' => '8',
+			'description' => null,
+			'alt' => '',
+			'path' => 'historic.jpg',
+			'created' => '2014-08-02 10:48:22',
+			'modified' => '2014-08-02 10:48:22'
+		),
+		'Airport' => array()
+	),
+	(int) 3 => array(
+		'Map' => array(
+			'id' => '5',
+			'media_id' => '9',
+			'name' => 'Nature',
+			'slug' => 'nature',
+			'created' => '2014-08-02 11:15:21',
+			'modified' => '2014-08-02 11:15:21'
+		),
+		'Media' => array(
+			'id' => '9',
+			'description' => null,
+			'alt' => '',
+			'path' => 'nature.jpg',
+			'created' => '2014-08-02 10:48:27',
+			'modified' => '2014-08-02 10:48:27'
+		),
+		'Airport' => array()
+	)
+)
+2014-08-02 14:21:39 Debug: 
+PagesController::index() - APP/Controller/PagesController.php, line 40
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+array(
+	(int) 0 => array(
+		'Map' => array(
+			'id' => '1',
+			'media_id' => '6',
+			'name' => 'sample',
+			'slug' => 'sample',
+			'created' => '0000-00-00 00:00:00',
+			'modified' => '0000-00-00 00:00:00'
+		),
+		'Media' => array(
+			'id' => '6',
+			'description' => null,
+			'alt' => '',
+			'path' => 'surfing.jpg',
+			'created' => '2014-08-02 10:48:06',
+			'modified' => '2014-08-02 10:48:06'
+		),
+		'Airport' => array(
+			(int) 0 => array(
+				[maximum depth reached]
+			),
+			(int) 1 => array(
+				[maximum depth reached]
+			),
+			(int) 2 => array(
+				[maximum depth reached]
+			),
+			(int) 3 => array(
+				[maximum depth reached]
+			),
+			(int) 4 => array(
+				[maximum depth reached]
+			),
+			(int) 5 => array(
+				[maximum depth reached]
+			)
+		)
+	),
+	(int) 1 => array(
+		'Map' => array(
+			'id' => '3',
+			'media_id' => '7',
+			'name' => 'hogehoge',
+			'slug' => 'lmao',
+			'created' => '2014-08-02 10:56:58',
+			'modified' => '2014-08-02 10:56:58'
+		),
+		'Media' => array(
+			'id' => '7',
+			'description' => null,
+			'alt' => '',
+			'path' => 'beach.jpg',
+			'created' => '2014-08-02 10:48:14',
+			'modified' => '2014-08-02 10:48:14'
+		),
+		'Airport' => array()
+	),
+	(int) 2 => array(
+		'Map' => array(
+			'id' => '4',
+			'media_id' => '8',
+			'name' => 'Historical places',
+			'slug' => 'history',
+			'created' => '2014-08-02 11:14:46',
+			'modified' => '2014-08-02 11:14:46'
+		),
+		'Media' => array(
+			'id' => '8',
+			'description' => null,
+			'alt' => '',
+			'path' => 'historic.jpg',
+			'created' => '2014-08-02 10:48:22',
+			'modified' => '2014-08-02 10:48:22'
+		),
+		'Airport' => array()
+	),
+	(int) 3 => array(
+		'Map' => array(
+			'id' => '5',
+			'media_id' => '9',
+			'name' => 'Nature',
+			'slug' => 'nature',
+			'created' => '2014-08-02 11:15:21',
+			'modified' => '2014-08-02 11:15:21'
+		),
+		'Media' => array(
+			'id' => '9',
+			'description' => null,
+			'alt' => '',
+			'path' => 'nature.jpg',
+			'created' => '2014-08-02 10:48:27',
+			'modified' => '2014-08-02 10:48:27'
+		),
+		'Airport' => array()
+	)
+)
