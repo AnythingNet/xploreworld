@@ -3,17 +3,15 @@
 
 	<h1>Maps</h1>
 
-  <div id="map-area" class="panel panel-default">
 
-    <div class="panel-heading">Maps</div>
-
-		<div class="panel-body">
+<div class="outer-button">
 			<?php echo $this->Html->link('Add new map', array('action' => 'add'), array('class' => 'btn btn-primary')); ?>
 		</div>
 
-  </div>
 
   <div class="panel panel-default">
+
+    <div class="panel-heading">Maps</div>
 
 		<div class="panel-body">
 
