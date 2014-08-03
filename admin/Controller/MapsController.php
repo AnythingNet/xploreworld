@@ -9,21 +9,14 @@ class MapsController extends AppController {
 
 	public $uses = array('MapsAirport', 'Map', 'Media', 'Airport');
 
+  public $helpers = array(
+    'Form' => array('className' => 'CustomForm')
+  );
+
 	/**
 	 * マップの表示
 	 */
   public function index() {
-
-		if ($this->request->is('post')) {
-
-			$this->Map->save($this->request->data['Map']);
-
-			if ($this->Map->validates()) {
-        $this->Session->setFlash('マップを追加しました。', 'default', array('class' => 'alert alert-success'));
-				$this->redirect('index');
-			}
-
-		}
 
 		$options = array(
 			'contain' => array(
@@ -42,17 +35,76 @@ class MapsController extends AppController {
 
   }
 
-  public function edit() {
+	public function add() {
+
+		if ($this->request->isPost()) {
+
+      $this->Map->create($this->request->data);
+
+      if (!$this->Map->validates()) {
+
+        $this->Session->setFlash('Please fill in the required fields.', 'default', array('class' => 'alert alert-danger'));
+
+      } else if ($this->Map->save()) {
+
+        $this->Session->setFlash('マップを追加しました。', 'default', array('class' => 'alert alert-success'));
+				$this->redirect('index');
+
+			} else {
+
+        $this->Session->setFlash('The page could not be saved. Please try again.', 'default', array('class' => 'alert alert-danger'));
+
+			}
+
+		}
+
+		$Media = $this->Media->findAllWithAttributes();
+		$this->set('Media', $Media);
+
+	}
+
+  public function edit($id = null) {
 
     if ($this->request->isPost()) {
 
-			if ($this->Map->save($this->request->data['Map'])) {
-				$this->Session->setFlash('マップを編集しました。', 'default', array('class' => 'alert alert-success'));
+      $this->Map->create($this->request->data);
+      $id = $this->request->data['Map']['id'];
+      $this->Map->id = $id;
+
+			$Map = $this->Map->findById($id);
+			$this->set('image_path', $Map['Media']['path']);
+
+      if (!$this->Map->validates()) {
+
+        $this->Session->setFlash('Please fill in the required fields.', 'default', array('class' => 'alert alert-danger'));
+
+      } else if ($this->Map->save()) {
+
+        $this->Session->setFlash('マップを編集しました。', 'default', array('class' => 'alert alert-success'));
+				$this->redirect('index');
+
+			} else {
+
+        $this->Session->setFlash('The page could not be saved. Please try again.', 'default', array('class' => 'alert alert-danger'));
+
 			}
+
+    } else if (is_null($id) || !$this->Map->findById($id)) {
+
+			$this->redirect('index');
+
+    } else {
+
+			$Map = $this->Map->findById($id);
+      $this->request->data = $Map;
+			$this->set('image_path', $Map['Media']['path']);
 
     }
 
-    $this->redirect('index');
+		$Media = $this->Media->findAllWithAttributes();
+		$this->set('Media', $Media);
+
+    $this->set('id', $id);
 
   }
 

@@ -20623,3 +20623,65 @@ Request URL: /xploreworld/admin/uploads/Page-01.jpg
 Stack Trace:
 #0 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-08-02 17:22:10 Error: [MissingActionException] Action MapsController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'MapsController',
+  'action' => 'add',
+)
+Request URL: /xploreworld/admin/maps/add
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-02 17:25:52 Error: [MissingActionException] Action MapsController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'MapsController',
+  'action' => 'add',
+)
+Request URL: /xploreworld/admin/maps/add
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\xampp\public_html\xploreworld\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\xampp\public_html\xploreworld\admin\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-02 17:47:56 Error: Fatal Error (1): Call to a member function create() on a non-object in [E:\xampp\public_html\xploreworld\admin\Controller\MapsController.php, line 49]
+2014-08-02 17:47:56 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /xploreworld/admin/maps/add
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\xampp\\public...', 49)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\xampp\\public...', 49, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\xampp\\public...', 49, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 18:32:31 Error: Fatal Error (1): Call to a member function findById() on a non-object in [E:\xampp\public_html\xploreworld\admin\Controller\MapsController.php, line 98]
+2014-08-02 18:32:31 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /xploreworld/admin/maps/edit/50
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\xampp\\public...', 98)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\xampp\\public...', 98, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\xampp\\public...', 98, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 18:33:26 Error: Fatal Error (1): Call to a member function findById() on a non-object in [E:\xampp\public_html\xploreworld\admin\Controller\MapsController.php, line 104]
+2014-08-02 18:33:26 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /xploreworld/admin/maps/edit/5
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\xampp\\public...', 104)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\xampp\\public...', 104, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\xampp\\public...', 104, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 18:50:10 Error: Fatal Error (4): syntax error, unexpected ';' in [E:\xampp\public_html\xploreworld\admin\View\Maps\edit.ctp, line 46]
+2014-08-02 18:50:10 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /xploreworld/admin/maps/edit/5
+Stack Trace:
+#0 E:\xampp\public_html\xploreworld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\xampp\\public...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\xampp\\public...', 46, Array)
+#2 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\xampp\\public...', 46, Array)
+#3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
