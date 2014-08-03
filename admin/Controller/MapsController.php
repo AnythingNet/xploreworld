@@ -125,62 +125,218 @@ class MapsController extends AppController {
 	/**
 	 * 空港情報の編集
 	 */
-	public function setting_airports() {
+	public function setting_airports($map_id = null) {
 
-		if (isset($this->request->query['id'])) {
+		if ($this->request->isPost()) {
 
-			$options = array(
-				'conditions' => array(
-					'id <' => 100
-				)
-			);
 
-			$Airports = $this->Airport->find('list', $options);
-			//pr($Airports);
-
-			$selectAirportOptions = array(
-				 'type' => 'select'
-				,'options' => $Airports
-				,'id' => 'select-airports'
-				,'class' => 'form-control'
-				,'div' => false
-			);
-
-			$pinOptions = array(
-				'contain' => array(
-					'Airport'
-				)
-				,'conditions' => array(
-					'MapsAirport.map_id' => $this->request->query['id']
-				)
-			);
-
-			//$Pins = $this->Map->find('first', $pinOptions);
-			$this->paginate = $pinOptions;
-			$Pins = $this->paginate();
-			pr($Pins);
-
-			$this->set('selectAirportOptions', $selectAirportOptions);
-			$this->set('Pins', $Pins);
-
-		} else {
+    } else if (is_null($map_id) || !$this->Map->findById($map_id)) {
 
 			$this->redirect('index');
 
 		}
 
+		$pinOptions = array(
+			'conditions' => array(
+				'MapsAirport.map_id' => $map_id
+			)
+		);
+
+		$this->MapsAirport->bindModel(
+			array('belongsTo' => array('Airport'))
+		);
+		$this->paginate = $pinOptions;
+		$Pins = $this->paginate();
+
+		$this->set('Pins', $Pins);
+
+		$this->set('map_id', $map_id);
+
 	}
 
 	/**
 	 * 空港の追加
 	 */
-	public function add_airport() {
+	public function add_airport($map_id = null) {
+
+		if ($this->request->isPost()) {
+
+			$country = $this->request->data['MapsAirport']['country'];
+			unset($this->request->data['MapsAirport']['country']);
+
+			$map_id = $this->request->data['MapsAirport']['map_id'];
+
+      $this->MapsAirport->create($this->request->data);
+
+      if (!$this->MapsAirport->validates()) {
+
+        $this->Session->setFlash('Please fill in the required fields.', 'default', array('class' => 'alert alert-danger'));
+
+      } else if ($this->MapsAirport->save()) {
+
+        $this->Session->setFlash('空港情報を追加しました。', 'default', array('class' => 'alert alert-success'));
+				$this->redirect('setting_airports/'.$map_id);
+
+			} else {
+
+        $this->Session->setFlash('The page could not be saved. Please try again.', 'default', array('class' => 'alert alert-danger'));
+
+			}
+
+    } else if (is_null($map_id) || !$this->Map->findById($map_id)) {
+
+			$this->redirect('index');
+
+		}
+
+		$countries = $this->Airport->getCountries();
+
+		$selectCountryOptions = array(
+			 'type' => 'select'
+			,'options' => $countries
+			,'empty' => '--- Select Country ---'
+			,'id' => 'select-countries'
+			,'data-app-url' => Router::url('/maps/get_airport_option')
+			,'class' => 'form-control'
+			,'div' => false
+		);
+		if (isset($country)) {
+			$selectCountryOptions['value'] = $country;
+		}
+
+		$selectAirportOptions = array(
+			 'type' => 'select'
+			,'empty' => '--- Select Airport ---'
+			,'id' => 'select-airports'
+			,'class' => 'form-control'
+			,'div' => false
+		);
+
+		$this->set('selectCountryOptions', $selectCountryOptions);
+		$this->set('selectAirportOptions', $selectAirportOptions);
+
+		$this->set('map_id', $map_id);
+
 	}
 
 	/**
 	 * 空港の追加
 	 */
-	public function edit_airport() {
+	public function edit_airport($id = null) {
+
+    if ($this->request->isPost()) {
+
+			$country = $this->request->data['MapsAirport']['country'];
+			unset($this->request->data['MapsAirport']['country']);
+
+      $this->MapsAirport->create($this->request->data);
+      $id = $this->request->data['MapsAirport']['id'];
+      $this->MapsAirport->id = $id;
+
+			$MapsAirport = $this->MapsAirport->findById($id);
+
+      if (!$this->MapsAirport->validates()) {
+
+        $this->Session->setFlash('Please fill in the required fields.', 'default', array('class' => 'alert alert-danger'));
+
+      } else if ($this->MapsAirport->save()) {
+
+        $this->Session->setFlash('マップを編集しました。', 'default', array('class' => 'alert alert-success'));
+				$this->redirect('setting_airports/'.$MapsAirport['Map']['id']);
+
+			} else {
+
+        $this->Session->setFlash('The page could not be saved. Please try again.', 'default', array('class' => 'alert alert-danger'));
+
+			}
+
+    } else if (is_null($id) || !$this->MapsAirport->findById($id)) {
+
+			$this->redirect('index');
+
+    } else {
+
+			$MapsAirport = $this->MapsAirport->findById($id);
+			$country = $MapsAirport['Airport']['country'];
+      $this->request->data = $MapsAirport;
+
+    }
+
+		$countries = $this->Airport->getCountries();
+
+		$selectCountryOptions = array(
+			 'type' => 'select'
+			,'options' => $countries
+			,'empty' => '--- Select Country ---'
+			,'id' => 'select-countries'
+			,'value' => $country
+			,'data-app-url' => Router::url('/maps/get_airport_option')
+			,'class' => 'form-control'
+			,'div' => false
+		);
+
+		$Airports = $this->Airport->find('list');
+
+		$selectAirportOptions = array(
+			 'type' => 'select'
+			,'options' => $Airports
+			,'empty' => '--- Select Airport ---'
+			,'id' => 'select-airports'
+			,'class' => 'form-control'
+			,'div' => false
+		);
+
+		$this->set('selectCountryOptions', $selectCountryOptions);
+		$this->set('selectAirportOptions', $selectAirportOptions);
+
+    $this->set('id', $id);
+    $this->set('map_id', $MapsAirport['Map']['id']);
+
+	}
+
+  public function delete_airport() {
+
+    if ($this->request->isPost()) {
+
+      if ($this->MapsAirport->delete($this->request->data['MapsAirport']['id'])) {
+        $this->Session->setFlash('The pin has been deleted.', 'default', array('class' => 'alert alert-success'));
+      }
+
+    }
+
+    $this->redirect('setting_airports/'.$this->request->data['MapsAirport']['map_id']);
+
+  }
+
+	public function get_airport_option() {
+
+		if ($this->request->isPost()) {
+
+
+			if (empty($this->request->data['country'])) {
+
+				$airports = $this->Airport->find('list');
+
+			} else {
+
+				$country = $this->request->data['country'];
+
+				$options = array(
+					'conditions' => array(
+						'country' => $country
+					)
+				);
+
+				$airports = $this->Airport->find('list', $options);
+
+			}
+
+			$this->set('airports', $airports);
+			$this->set('airport_id', $this->request->data['airport_id']);
+
+			$this->layout = false;
+
+		}
 
 	}
 

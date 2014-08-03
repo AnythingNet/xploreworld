@@ -38,4 +38,29 @@ class Airport extends AppModel {
 		)
 	);
 
+	/**
+	 * 地域リストを取得
+	 *
+	 * @return array $countries セレクトボックス用の地域リスト配列
+	 */
+	public function getCountries() {
+
+		$options = array(
+			'fields' => 'DISTINCT Airport.country'
+		);
+
+		$airport = $this->find('all', $options);
+
+		$countries = array();
+
+		foreach ($airport as $_airport) {
+
+			$countries[$_airport['Airport']['country']] = $_airport['Airport']['country'];
+
+		}
+
+		return $countries;
+
+	}
+
 }

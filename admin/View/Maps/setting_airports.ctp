@@ -1,154 +1,105 @@
-<?php
-echo $this->Html->css('select2/select2-bootstrap');
-echo $this->Html->css('select2/select2');
-?>
-
 <?php echo $this->Session->flash(); ?>
 
-<h1>Maps</h1>
+<h1>Pins</h1>
 
-  <div id="map-area" class="panel panel-default">
+	<div class="outer-button">
+		<?php echo $this->Html->link('Add Pin', array('action' => 'add_airport', $map_id), array('class' => 'btn btn-primary')); ?>
+	</div>
 
-    <div class="panel-heading">Maps</div>
+  <div class="panel panel-default">
 
-			<div class="form-group col-lg-12">
-				<a class="btn btn-info" data-toggle="modal" data-target="#add-pin-modal">Add Pin</a>
-			</div>
+    <div class="panel-heading">Pins</div>
 
-    <?php echo $this->Form->create('Maps', array('type' => 'post', 'url' => 'index')); ?>
+		<div class="panel-body">
+			<?php if (isset($Pins)) { ?>
 
+				<ul class="pagination">
+				<?php
+					echo $this->Paginator->prev(
+						 '<< Prev'
+						 ,array(
+							 'tag' => 'li'
+						 )
+						,'<a>&lt;&lt; Prev</a>'
+						,array(
+							 'tag' => 'li'
+							,'class' => 'prev disabled'
+							,'escape' => false
+						)
+					);
+					echo $this->Paginator->numbers(array(
+							'separator' => ''
+						 ,'currentClass' => 'disabled'
+						 ,'currentTag' => 'a'
+						 ,'tag' => 'li'
+					));
+					echo $this->Paginator->next(
+						 'Next >>'
+						 ,array(
+							 'tag' => 'li'
+						 )
+						,'<a>Next &gt;&gt;</a>'
+						,array(
+							 'tag' => 'li'
+							,'class' => 'prev disabled'
+							,'escape' => false
+						)
+					);
+				?>
+				</ul>
 
-    <?php echo $this->Form->end(); ?>
+				<table class="table">
 
-  </div>
-
-	<?php if (isset($Pins)) { ?>
-
-		<div class="panel">
-
-			<?php echo  $this->Paginator->numbers(); ?>
-
-			<table class="table">
-
-				<thead>
-					<tr>
-						<th>Airport</th>
-						<th>Description</th>
-						<th>Action</th>
-					</tr>
-				</thead>
-
-				<tbody>
-				
-					<?php foreach ($Pins as $_pin) { ?>
-
+					<thead>
 						<tr>
-							<td><?php echo $_pin['Airport']['name']; ?></td>
-							<td><?php echo nl2br($_pin['MapsAirport']['description']); ?></td>
-							<td>
-								<a class="btn btn-info" data-toggle="modal" data-target="#edit-pin-modal-<?php echo $_pin['MapsAirport']['id']; ?>">Edit</a>
-								<a class="btn btn-danger" data-toggle="modal" data-target="#delete-pin-modal">Delete</a>
-							</td>
+							<th>Airport</th>
+							<th>Description</th>
+							<th>Action</th>
 						</tr>
+					</thead>
 
-						<!-- Edit Pin Popup -->
-						<div class="modal fade" id="edit-pin-modal-<?php echo $_pin['MapsAirport']['id']; ?>" role="dialog">
-							<div class="modal-dialog">
-								<div class="modal-content">
+					<tbody>
+					
+						<?php foreach ($Pins as $_pin) { ?>
 
-									<?php echo $this->Form->create('MapsAirport', array('type' => 'post', 'url' => 'edit_airport')); ?>
+							<tr>
+								<td><?php echo $_pin['Airport']['name']; ?></td>
+								<td><?php echo nl2br($_pin['MapsAirport']['description']); ?></td>
+								<td>
+									<?php echo $this->Html->link('Edit', array('action' => 'edit_airport', $_pin['MapsAirport']['id']), array('class' => 'btn btn-success')); ?>
+									<a class="btn btn-danger" data-toggle="modal" data-target="#delete-modal-<?php echo $_pin['MapsAirport']['id']; ?>">Delete</a>
+								</td>
+							</tr>
 
-										<div class="modal-header">
-											<h4 class="modal-title" id="">Edit Pin</h4>
-										</div>
+							<!-- Delete modal -->
+							<div class="modal fade" id="delete-modal-<?php echo $_pin['MapsAirport']['id']; ?>" tabindex="-1" role="dialog" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
 
-										<div class="modal-body">
+										<?php echo $this->Form->create('MapsAirport', array('type' => 'post', 'url' => 'delete_airport')); ?>
+											<div class="modal-header">Delete this pin</div>
 
-											<div class="panel-body">
+											<div class="modal-body">Are you sure you want to delete this pin?</div>
 
-												<div class="row">
-
-													<div class="form-group col-lg-12">
-														<?php echo $this->Form->label('description', 'Description'); ?>
-														<?php
-															echo $this->Form->textarea('description', array('class' => 'form-control', 'rows' => 3, 'value' => $_pin['MapsAirport']['description']));
-														?>
-													</div>
-
-												</div>
-
-												<div class="form-group col-lg-12">
-													<?php echo $this->Form->input('id', array('type' => 'hidden', 'value' => $_pin['MapsAirport']['id'])); ?>
-													<?php echo $this->Form->submit('Save', array('class' => 'btn btn-success')); ?>
-												</div>
-
+											<div class="modal-footer">
+												<a class="btn btn-default" data-dismiss="modal">Close</a>
+												<?php echo $this->Form->submit('Delete', array('class' => 'btn btn-danger', 'name' => 'delete', 'div' => false)); ?>
+												<?php echo $this->Form->hidden('id', array('value' => $_pin['MapsAirport']['id'])); ?>
+												<?php echo $this->Form->hidden('map_id', array('value' => $map_id)); ?>
 											</div>
+										<?php echo $this->Form->end(); ?>
 
-										</div>
-
-										<div class="modal-footer">
-												<?php echo $this->Form->button('Close', array('type' => 'button', 'class' => 'btn btn-default', 'data-dismiss' => 'modal')) ?>
-										</div>
-
-									<?php echo $this->Form->end(); ?>
-
+									</div>
 								</div>
 							</div>
-						</div>
 
-					<?php } ?>
+						<?php } ?>
 
-				</tbody>
+					</tbody>
 
-			</table>
-		</div>
+				</table>
 
-
-	<?php } ?>
-
-	<!-- Add Pin Popup -->
-	<div class="modal fade" id="add-pin-modal" role="dialog">
-		<div class="modal-dialog">
-			<div class="modal-content">
-
-				<?php echo $this->Form->create('Map', array('type' => 'post', 'url' => 'add_airport')); ?>
-
-					<div class="modal-header">
-						<h4 class="modal-title" id="">Add Pin</h4>
-					</div>
-
-					<div class="modal-body">
-
-						<div class="panel-body">
-
-							<div class="row">
-
-								<div class="form-group col-lg-6">
-									<?php echo $this->Form->input('airport_id', $selectAirportOptions); ?>
-								</div>
-
-								<div class="form-group col-lg-12">
-									<?php echo $this->Form->label('description', 'Description'); ?>
-									<?php echo $this->Form->textarea('description', array('class' => 'form-control', 'rows' => 3)); ?>
-								</div>
-
-							</div>
-
-							<div class="form-group col-lg-12">
-								<?php echo $this->Form->submit('Save', array('class' => 'btn btn-success')); ?>
-							</div>
-
-						</div>
-
-					</div>
-
-					<div class="modal-footer">
-							<?php echo $this->Form->button('Close', array('type' => 'button', 'class' => 'btn btn-default', 'data-dismiss' => 'modal')) ?>
-					</div>
-
-				<?php echo $this->Form->end(); ?>
-
-			</div>
+			<?php } ?>
 		</div>
 	</div>
 

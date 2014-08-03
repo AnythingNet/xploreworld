@@ -3,11 +3,9 @@
 
 	<h1>Maps</h1>
 
-
-<div class="outer-button">
-			<?php echo $this->Html->link('Add new map', array('action' => 'add'), array('class' => 'btn btn-primary')); ?>
-		</div>
-
+	<div class="outer-button">
+		<?php echo $this->Html->link('Add new map', array('action' => 'add'), array('class' => 'btn btn-primary')); ?>
+	</div>
 
   <div class="panel panel-default">
 
@@ -17,67 +15,65 @@
 
 			<?php if (isset($Maps)) { ?>
 
-				<div class="panel">
-					<table class="table">
+				<table class="table">
 
-						<thead>
+					<thead>
+						<tr>
+							<th>Map Name</th>
+							<th>Image</th>
+							<th>Action</th>
+						</tr>
+					</thead>
+
+					<tbody>
+					
+						<?php foreach ($Maps as $_map) { ?>
+
 							<tr>
-								<th>Map Name</th>
-								<th>Image</th>
-								<th>Action</th>
+
+								<td><?php echo $_map['Map']['name']; ?></td>
+								<td>
+									<?php
+										$image_path = Configure::read('File.url').$_map['Media']['path'];
+										echo $this->Html->image($image_path, array('width' => 100,'height' => 100));
+									?>
+								</td>
+
+								<td>
+									<?php echo $this->Html->link('Pin', array('action' => 'setting_airports', $_map['Map']['id']), array('class' => 'btn btn-info')); ?>
+
+									<?php echo $this->Html->link('Edit', array('action' => 'edit', $_map['Map']['id']), array('class' => 'btn btn-success')); ?>
+
+									<a class="btn btn-danger" data-toggle="modal" data-target="#delete-modal-<?php echo $_map['Map']['id']; ?>">Delete</a>
+								</td>
+
 							</tr>
-						</thead>
 
-						<tbody>
-						
-							<?php foreach ($Maps as $_map) { ?>
+							<!-- Delete modal -->
+							<div class="modal fade" id="delete-modal-<?php echo $_map['Map']['id']; ?>" tabindex="-1" role="dialog" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
 
-								<tr>
+										<?php echo $this->Form->create('Map', array('type' => 'post', 'url' => 'delete')); ?>
+											<div class="modal-header">Delete this map</div>
 
-									<td><?php echo $_map['Map']['name']; ?></td>
-									<td>
-										<?php
-											$image_path = Configure::read('File.url').$_map['Media']['path'];
-											echo $this->Html->image($image_path, array('width' => 100,'height' => 100));
-										?>
-									</td>
+											<div class="modal-body">Are you sure you want to delete this map?</div>
 
-									<td>
-										<?php echo $this->Html->link('Pin', array('action' => 'edit'), array('class' => 'btn btn-info')); ?>
+											<div class="modal-footer">
+												<a class="btn btn-default" data-dismiss="modal">Close</a>
+												<?php echo $this->Form->submit('Delete', array('class' => 'btn btn-danger', 'name' => 'delete', 'div' => false)); ?>
+												<?php echo $this->Form->hidden('id', array('value' => $_map['Map']['id'])); ?>
+											</div>
+										<?php echo $this->Form->end(); ?>
 
-										<?php echo $this->Html->link('Edit', array('action' => 'edit', $_map['Map']['id']), array('class' => 'btn btn-success')); ?>
-
-										<a class="btn btn-danger" data-toggle="modal" data-target="#delete-modal-<?php echo $_map['Map']['id']; ?>">Delete</a>
-									</td>
-
-								</tr>
-
-								<!-- Delete modal -->
-								<div class="modal fade" id="delete-modal-<?php echo $_map['Map']['id']; ?>" tabindex="-1" role="dialog" aria-hidden="true">
-									<div class="modal-dialog">
-										<div class="modal-content">
-
-											<?php echo $this->Form->create('Map', array('type' => 'post', 'url' => 'delete')); ?>
-												<div class="modal-header">Delete this map</div>
-
-												<div class="modal-body">Are you sure you want to delete this map?</div>
-
-												<div class="modal-footer">
-													<a class="btn btn-default" data-dismiss="modal">Close</a>
-													<?php echo $this->Form->submit('Delete', array('class' => 'btn btn-danger', 'name' => 'delete', 'div' => false)); ?>
-													<?php echo $this->Form->hidden('id', array('value' => $_map['Map']['id'])); ?>
-												</div>
-											<?php echo $this->Form->end(); ?>
-
-										</div>
 									</div>
 								</div>
+							</div>
 
-							<?php } ?>
-						</tbody>
+						<?php } ?>
+					</tbody>
 
-					</table>
-				</div>
+				</table>
 
 			<?php } ?>
 
