@@ -54,7 +54,7 @@
         <div class="row">
 
           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-            <a class="navbar-brand logo-link" href="/"><?php echo $this->Html->image('/css/img/logo.png', array('class' => 'logo')); ?></a>
+            <a class="navbar-brand logo-link" href="<?php echo Router::url('/'); ?>"><?php echo $this->Html->image('/css/img/logo.png', array('class' => 'logo')); ?></a>
           </div>
 
           <div class="hidden-xs col-sm-3 col-md-3 col-lg-3 airplain">

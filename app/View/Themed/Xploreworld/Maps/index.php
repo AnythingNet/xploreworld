@@ -1,5 +1,6 @@
 <?php
-echo $this->Html->css('maps.css');
+echo $this->Html->css('checkboost');
+echo $this->Html->css('maps');
 ?>
 
 <div id="user-map" class="xplorearea collapse in">
@@ -25,7 +26,9 @@ echo $this->Html->css('maps.css');
     </div>
 
     <div class="submitarea">
-      <button id="mapdone" class="btn btn-success btn-lg">Next</button>
+      <a href="" id="mapdone">
+        <?php echo $this->Html->image('/css/img/button-next.png', array('class' => 'section-label')); ?>
+      </a>
     </div>
 
   </div>
@@ -88,7 +91,11 @@ echo $this->Html->css('maps.css');
     </div>
 
     <div class="submitarea">
-      <button id="formdone" class="btn btn-primary btn-lg" type="hidden" placeholder="Phone">Send</button>
+      <div class="submitarea">
+        <a href="" id="formdone">
+          <?php echo $this->Html->image('/css/img/button-next.png', array('class' => 'section-label')); ?>
+        </a>
+      </div>
       <button id="formback" class="btn btn-default btn-lg" type="hidden" placeholder="Phone">Back</button>
     </div>
 
@@ -114,6 +121,8 @@ echo $this->Html->css('maps.css');
 </div>
 
 <?php
+echo $this->Html->script('pretty-checkable/prettyCheckable.min');
+
 echo $this->Html->scriptBlock(
   'var markerObj = ' . $this->Js->object($maps_object)
 );
@@ -124,6 +133,7 @@ echo $this->Html->scriptBlock(
   'var homeUrl = ' . $this->Js->object($home_url)
 );
 echo $this->Html->script('https://maps.googleapis.com/maps/api/js?key=AIzaSyAJmHl3cUQ1tttdfZig6Lv0X14S3ekddYk&v=3.exp&sensor=true&libraries=places');
-echo $this->Html->script('maptheme-simple.js');
-echo $this->Html->script('maps.js');
+echo $this->Html->script('checkboost');
+echo $this->Html->script('maptheme-simple');
+echo $this->Html->script('maps');
 ?>

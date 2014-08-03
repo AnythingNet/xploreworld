@@ -173,7 +173,9 @@ var changeSteps = function(active_index) {
 }
 
 //append selected labels as hidden for #user-form
-var mapDone = function() {
+var mapDone = function(e) {
+  
+  e.preventDefault();
 
   var selected_items = $('.selected-item');
 
@@ -314,6 +316,8 @@ $(function() {
   });
 
   $('body').on('DOMNodeInserted', fadeOutAlerts);
+  //$('input.seat-radio').prettyCheckable();
+  $('input.seat-radio').checkboost();
 
   $('#success-modal').on('hidden.bs.modal', redirectToHome);
   $('.collapse').on('shown.bs.collapse', scrollToTop);
