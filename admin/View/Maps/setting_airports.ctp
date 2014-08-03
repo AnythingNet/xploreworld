@@ -64,7 +64,13 @@
 
 							<tr>
 								<td><?php echo $_pin['Airport']['name']; ?></td>
-								<td><?php echo nl2br($_pin['MapsAirport']['description']); ?></td>
+								<td>
+									<?php
+										$description = h($_pin['MapsAirport']['description']);
+										$description = mb_strimwidth($description, 0, 103, '...');
+										echo nl2br($description);
+									?>
+								</td>
 								<td>
 									<?php echo $this->Html->link('Edit', array('action' => 'edit_airport', $_pin['MapsAirport']['id']), array('class' => 'btn btn-success')); ?>
 									<a class="btn btn-danger" data-toggle="modal" data-target="#delete-modal-<?php echo $_pin['MapsAirport']['id']; ?>">Delete</a>
