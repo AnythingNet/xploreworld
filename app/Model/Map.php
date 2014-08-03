@@ -91,6 +91,21 @@ class Map extends AppModel {
 			'foreignKey' => 'media_id'
 		)
 	);
+  
+  public function findAllWithAttributes() {
+
+    $result = $this->find('all');
+
+    foreach ($result as $i => $row) {
+
+      $result[$i]['Media']['path'] = Configure::read('File.url') . $row['Media']['path'];
+      $result[$i]['Map']['url'] = Router::url('/')  . 'map_' . $row['Map']['slug'];
+
+    }
+
+    return $result;
+
+  }
 
   public function findPage($slug) {
 

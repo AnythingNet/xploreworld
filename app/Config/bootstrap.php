@@ -105,3 +105,10 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
+
+/* Custom: file url : changes depending on document root  */
+if (strcmp(basename(dirname(APP)), basename($_SERVER['DOCUMENT_ROOT'])) == 0) {
+  Configure::write('File.url', FULL_BASE_URL . '/' . 'uploads' . '/');
+} else {
+  Configure::write('File.url', FULL_BASE_URL . '/' . basename(dirname(APP)) . '/' . 'uploads' . '/');
+}
