@@ -16,9 +16,13 @@ class MapsController extends AppController {
  * @var array
  */
 	public $components = array('Paginator', 'Session');
-	public $helper = array('Form,', 'Html', 'Js');
 
   private $slugprefix = 'map_';
+
+  public function beforeFilter() {
+    $this->helpers = array_merge($this->helpers, array('Js'));
+    parent::beforeFilter();
+  }
 
   public function index() {
 

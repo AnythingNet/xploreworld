@@ -27,7 +27,7 @@
 				<div class="form-group col-lg-6">
 					<div id="add-image">
 						<?php
-							echo $this->Html->image('http://localhost/xploreworld/img/no_image.gif'
+							echo $this->Html->image('no-image-selected.gif'
 								,array(
 									 'class' => 'selected-image'
 									,'width' => 100

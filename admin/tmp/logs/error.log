@@ -20685,3 +20685,354 @@ Stack Trace:
 #3 E:\xampp\public_html\xploreworld\lib\Cake\Core\App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-08-03 13:37:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:37:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:37:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:39:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:49:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:49:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:49:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:49:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:49:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:49:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:49:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:49:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:49:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:49:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:49:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:50:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:50:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:50:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:50:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:51:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:51:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:51:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:51:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:51:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:51:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:51:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:52:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:52:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 13:58:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 14:01:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 14:01:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 14:05:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 14:05:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 02:39:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 08:13:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 08:15:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 08:19:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 08:22:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 08:22:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /xploreworld/admin/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

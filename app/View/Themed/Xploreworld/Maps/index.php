@@ -3,6 +3,9 @@ echo $this->Html->css('checkboost');
 echo $this->Html->css('maps');
 ?>
 
+<div id="whitesheet">
+  <?php echo $this->Html->image('/css/img/loader.gif', array('id' => 'loader')); ?>
+</div>
 <div id="user-map" class="xplorearea collapse in">
 
   <div class="contentarea">
@@ -14,8 +17,9 @@ echo $this->Html->css('maps');
     <?php echo $this->Html->image('/css/img/label-adventure.png', array('class' => 'section-label')); ?>
 
     <div id="selected-list-box">
+      <div class="ticketborder hidden-xs hidden-sm"></div>
       <div class="ticket-body row">
-        <div class="hidden-xs col-md-3">
+        <div class="hidden-xs hidden-sm col-md-3">
           <?php echo $this->Html->image('/css/img/barcode.gif', array('class' => 'barcode')); ?>
         </div>
         <div class="col-xs-12 col-md-9">
@@ -71,15 +75,19 @@ echo $this->Html->css('maps');
       <?php echo $this->Html->image('/css/img/label-details.png', array('class' => 'section-label')); ?>
 
       <div class="form-group">
+        <label class="control-label hidden"></label>
         <input id="first_name" class="form-control" type="text" placeholder="First Name" />
       </div>
       <div class="form-group">
+        <label class="control-label hidden"></label>
         <input id="last_name" class="form-control" type="text" placeholder="Last Name" />
       </div>
       <div class="form-group">
+        <label class="control-label hidden"></label>
         <input id="email" class="form-control" type="text" placeholder="Email" />
       </div>
       <div class="form-group">
+        <label class="control-label hidden"></label>
         <input id="phone" class="form-control" type="text" placeholder="Phone" />
       </div>
       <div class="form-group">
@@ -95,8 +103,8 @@ echo $this->Html->css('maps');
         <a href="" id="formdone">
           <?php echo $this->Html->image('/css/img/button-next.png', array('class' => 'section-label')); ?>
         </a>
+        <a href="" id="formback">Back To Map</a>
       </div>
-      <button id="formback" class="btn btn-default btn-lg" type="hidden" placeholder="Phone">Back</button>
     </div>
 
   </div>

@@ -36,6 +36,12 @@ class AppController extends Controller {
   public $layout = 'template';
   public $theme;
 
+  public $helpers = array(
+    'Form',
+    //'Html',
+    'Html' => array('className' => 'ThemeHtml'),
+  );
+
   public function beforeFilter() {
 
     $this->loadModel('Setting');

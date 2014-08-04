@@ -45,5 +45,5 @@
 
 </div>
 <?php
-echo $this->Html->script('home.js');
+echo $this->Html->script('home');
 ?>

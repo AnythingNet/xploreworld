@@ -298,6 +298,11 @@ var scrollToTop = function() {
   $('html, body').animate({scrollTop: 0});
 }
 
+var fadeIntoMap = function() {
+  $('#loader').remove();
+  $('#whitesheet').addClass('fading');
+}
+
 $(function() {
 
   changeSteps(Xplore.mapStepIndex);
@@ -321,5 +326,7 @@ $(function() {
 
   $('#success-modal').on('hidden.bs.modal', redirectToHome);
   $('.collapse').on('shown.bs.collapse', scrollToTop);
+
+  window.setTimeout(fadeIntoMap, 3000);
 
 });

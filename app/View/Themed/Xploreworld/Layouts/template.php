@@ -12,7 +12,7 @@
 
 	<?php
 
-		//echo $this->Html->meta('description', $meta_description);
+		echo $this->Html->meta('description', $meta_description);
 
 		echo $this->Html->script('script');
 
@@ -38,6 +38,7 @@
 		echo $this->Html->script('script');
 
 	?>
+
 
 </head>
 

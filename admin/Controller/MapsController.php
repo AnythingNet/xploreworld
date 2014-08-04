@@ -14,7 +14,7 @@ class MapsController extends AppController {
   );
 
 	/**
-	 * マップの表示
+	 * show map
 	 */
   public function index() {
 
@@ -47,7 +47,7 @@ class MapsController extends AppController {
 
       } else if ($this->Map->save()) {
 
-        $this->Session->setFlash('マップを追加しました。', 'default', array('class' => 'alert alert-success'));
+        $this->Session->setFlash('The map has been created', 'default', array('class' => 'alert alert-success'));
 				$this->redirect('index');
 
 			} else {
@@ -80,7 +80,7 @@ class MapsController extends AppController {
 
       } else if ($this->Map->save()) {
 
-        $this->Session->setFlash('マップを編集しました。', 'default', array('class' => 'alert alert-success'));
+        $this->Session->setFlash('The map has been updated', 'default', array('class' => 'alert alert-success'));
 				$this->redirect('index');
 
 			} else {
@@ -123,7 +123,7 @@ class MapsController extends AppController {
   }
 
 	/**
-	 * 空港情報の編集
+	 * edit airport details
 	 */
 	public function setting_airports($map_id = null) {
 
@@ -158,7 +158,7 @@ class MapsController extends AppController {
 	}
 
 	/**
-	 * 空港の追加
+	 * add airports
 	 */
 	public function add_airport($map_id = null) {
 
@@ -177,7 +177,7 @@ class MapsController extends AppController {
 
       } else if ($this->MapsAirport->save()) {
 
-        $this->Session->setFlash('空港情報を追加しました。', 'default', array('class' => 'alert alert-success'));
+        $this->Session->setFlash('Pins have been updated', 'default', array('class' => 'alert alert-success'));
 				$this->redirect('setting_airports/'.$map_id);
 
 			} else {
@@ -223,7 +223,7 @@ class MapsController extends AppController {
 	}
 
 	/**
-	 * 空港の追加
+	 * edit pins
 	 */
 	public function edit_airport($id = null) {
 
@@ -244,7 +244,7 @@ class MapsController extends AppController {
 
       } else if ($this->MapsAirport->save()) {
 
-        $this->Session->setFlash('マップを編集しました。', 'default', array('class' => 'alert alert-success'));
+        $this->Session->setFlash('Map has been updated', 'default', array('class' => 'alert alert-success'));
 				$this->redirect('setting_airports/'.$MapsAirport['Map']['id']);
 
 			} else {

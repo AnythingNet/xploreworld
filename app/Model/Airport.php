@@ -22,6 +22,7 @@ class Airport extends AppModel {
  *
  * @var array
  */
+
 	public $hasAndBelongsToMany = array(
 		'Map' => array(
 			'className' => 'Map',
