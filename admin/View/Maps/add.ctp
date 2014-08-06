@@ -1,3 +1,4 @@
+<?php echo $this->Html->css('maps'); ?>
 <?php echo $this->Html->script('airport'); ?>
 
 <?php echo $this->Session->flash(); ?>
@@ -15,10 +16,13 @@
 					<?php echo $this->Form->input('name', array('type' => 'text', 'class' => 'form-control', 'placeholder' => 'Add map name')); ?>
 				</div>
 
-				<div class="form-group col-lg-6">
-					<?php echo $this->Form->label('slug', 'Slug'); ?>
-					<?php echo $this->Form->input('slug', array('type' => 'text', 'class' => 'form-control', 'placeholder' => 'Add slug')); ?>
-				</div>
+        <div class="form-group col-lg-6">
+          <?php echo $this->Form->label('slug', 'Page URL'); ?>
+          <div class="input-group page-inputs">
+            <span class="input-group-addon"><?php echo FULL_BASE_URL.DS; ?></span>
+            <?php echo $this->Form->input('slug', array('type' => 'text', 'class' => 'form-control', 'placeholder' => 'Add url')); ?>
+          </div>
+        </div>
 
 				<div class="form-group col-lg-12">
 					<a class="btn btn-info media-select" data-select-target="add-image" data-toggle="modal" data-target="#media-select-modal">Image Select</a>
@@ -36,7 +40,7 @@
 							);
 						?>
 						<?php echo $this->Form->input('media_id', array('type' => 'hidden', 'class' => 'media-id')); ?>
-						<?php echo $this->Form->error('Map.media_id', null, array('class' => 'alert alert-danger')); ?>
+						<?php echo $this->Form->error('Map.media_id', 'Please select an image', array('class' => 'alert alert-danger')); ?>
 					</div>
 				</div>
 

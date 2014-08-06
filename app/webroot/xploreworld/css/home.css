@@ -43,24 +43,50 @@
 
 .window-frame.cover {
   background-color: #FFF;
-  opacity: 0.8;
+  opacity: 1;
   z-index: 4;
   width: 200px;
   height: 40px;
   position: absolute;
   left: 27px;
   top: 39px; 
-  border-radius: 100px;
+  border-radius: 30px;
 }
 
 .window-frame.cover.open {
+  animation: openWindow 0.5s;
+  animation-fill-mode: forwards;
   -webkit-animation: openWindow 0.5s;
   -webkit-animation-fill-mode: forwards;
+  -moz-animation: openWindow 0.5s;
+  -moz-animation-fill-mode: forwards;
 }
 
 .window-frame.cover.closed {
+  animation: closeWindow 0.5s;
+  animation-fill-mode: forwards;
   -webkit-animation: closeWindow 0.5s;
   -webkit-animation-fill-mode: forwards;
+  -moz-animation: closeWindow 0.5s;
+  -moz-animation-fill-mode: forwards;
+}
+
+@keyframes closeWindow {
+    from {
+      height: 40px;
+    }
+    to {
+      height: 183px;
+    }
+}
+
+@keyframes openWindow {
+    from {
+      height: 183px;
+    }
+    to {
+      height: 40px;
+    }
 }
 
 @-webkit-keyframes closeWindow {
@@ -68,37 +94,70 @@
       height: 40px;
     }
     to {
-      height: 199px;
+      height: 183px;
     }
 }
 
 @-webkit-keyframes openWindow {
     from {
-      height: 199px;
+      height: 183px;
     }
     to {
       height: 40px;
     }
 }
 
-/*
-@keyframes closeWindow {
-    from {background: red;}
-    to {background: yellow;}
+@-moz-keyframes closeWindow {
+    from {
+      height: 40px;
+    }
+    to {
+      height: 183px;
+    }
 }
-*/
+
+@-moz-keyframes openWindow {
+    from {
+      height: 183px;
+    }
+    to {
+      height: 40px;
+    }
+}
 
 .window-frame.inner {
   background: url('img/window-inner.png') no-repeat;
   z-index: 3;
 }
 
+.cover-text-inner,
+.cover-text-outer {
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 1.6em;
+  color: #367FBB;
+}
+
+.cover-text-inner {
+  position: absolute;
+  top: 139px;
+  z-index: 4;
+  width: 100%;
+  text-align: center;
+}
+
+.cover-text-outer {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
 .window-content {
   position: absolute;
-  width: 165px;
-  height: 165px;
-  top: 76px;
-  left: 48px;
+  width: 169px;
+  height: 169px;
+  top: 69px;
+  left: 40px;
   z-index: 2;
 }
 

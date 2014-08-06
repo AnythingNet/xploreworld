@@ -58,6 +58,8 @@ class AppController extends Controller {
     $header = $this->Menu->findHeader();
     $footer = $this->Menu->findFooter();
 
+    Debugger::log($footer);
+
     //$this->set('header', $header);
     $this->set('header', $header);
     $this->set('footer', $footer);

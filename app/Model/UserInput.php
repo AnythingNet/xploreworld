@@ -49,6 +49,14 @@ class UserInput extends AppModel {
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
+			'email' => array(
+				'rule' => array('email'),
+				'message' => 'Invalid Email',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
 		),
 		'phone' => array(
 			'notEmpty' => array(

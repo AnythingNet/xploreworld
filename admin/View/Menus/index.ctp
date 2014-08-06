@@ -15,40 +15,44 @@
   <div class="tab-content">
     <div class="tab-pane menu-section-pane active" id="menu-header" data-section-id="<?php echo $header_id; ?>">
 
-      <?php foreach ($menu[$header_id] as $group_id => $item) { ?>
+      <?php if (!empty($menu[$header_id])) { ?>
+        <?php foreach ($menu[$header_id] as $group_id => $item) { ?>
 
-        <div class="menutag-group">
+          <div class="menutag-group">
 
-        <?php foreach ($item as $order => $item) { ?>
+          <?php foreach ($item as $order => $item) { ?>
 
-          <div class="bg-primary menutag" data-label="<?php echo $item['label']; ?>" data-url="<?php echo $item['url']; ?>">
-            <?php echo $item['label'] . ' - ' . $item['url']; ?>
+            <div class="bg-primary menutag" data-label="<?php echo $item['label']; ?>" data-url="<?php echo $item['url']; ?>">
+              <?php echo $item['label'] . ' - ' . $item['url']; ?>
+            </div>
+
+          <?php } ?>
+
           </div>
 
         <?php } ?>
-
-        </div>
-
       <?php } ?>
 
     </div>
 
     <div class="tab-pane menu-section-pane" id="menu-footer" data-section-id="<?php echo $footer_id; ?>">
 
-      <?php foreach ($menu[$footer_id] as $group_id => $item) { ?>
+      <?php if (!empty($menu[$footer_id])) { ?>
+        <?php foreach ($menu[$footer_id] as $group_id => $item) { ?>
 
-        <div class="menutag-group">
+          <div class="menutag-group">
 
-        <?php foreach ($item as $order => $item) { ?>
+          <?php foreach ($item as $order => $item) { ?>
 
-          <div class="bg-primary menutag" data-label="<?php echo $item['label']; ?>" data-url="<?php echo $item['url']; ?>">
-            <?php echo $item['label'] . ' - ' . $item['url']; ?>
+            <div class="bg-primary menutag" data-label="<?php echo $item['label']; ?>" data-url="<?php echo $item['url']; ?>">
+              <?php echo $item['label'] . ' - ' . $item['url']; ?>
+            </div>
+
+          <?php } ?>
+
           </div>
 
         <?php } ?>
-
-        </div>
-
       <?php } ?>
 
     </div>

@@ -25,7 +25,7 @@
 
   </div>  
 
-  <div class="row window-body">  
+  <div class="row window-body">
 
     <?php foreach ($maps as $map) { ?>
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 window-column">
@@ -33,11 +33,12 @@
           <a href="<?php echo $map['Map']['url']; ?>">
           <div class="window-frame inner"></div>
           <div class="window-frame cover"></div>
-          <div class="window-frame outer"></div>
+          <p class="cover-text-inner hidden hidden-sm"><?php echo $map['Map']['name']; ?></p>
           <div class="window-frame outer"></div>
             <?php echo $this->Html->image($map['Media']['path'], array('class' => 'window-content')); ?>
           </a>
         </div>
+        <div class="cover-text-outer hidden-md hidden-lg"><?php echo $map['Map']['name']; ?></div>
       </div>
     <?php } ?>
 

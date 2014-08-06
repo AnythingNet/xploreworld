@@ -39,7 +39,6 @@
 
 	?>
 
-
 </head>
 
 <body role="document">
@@ -102,7 +101,10 @@
   </div>
 
   <footer>
-    <span>Copyright: Xploreworld</span> 
+    <span>Copyright: Xploreworld</span>&nbsp;|&nbsp;
+    <?php foreach ($footer as $item) { ?>
+      <span><?php echo $this->Html->link($item['parent']['label'], $item['parent']['url']); ?></span>&nbsp;|&nbsp;
+    <?php } ?>
   </footer>
 
 </body>

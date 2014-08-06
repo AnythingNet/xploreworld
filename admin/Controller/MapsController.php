@@ -220,6 +220,8 @@ class MapsController extends AppController {
 
 		$this->set('map_id', $map_id);
 
+    $this->set('images', $this->Media->findAllWithAttributes());
+
 	}
 
 	/**
@@ -294,6 +296,8 @@ class MapsController extends AppController {
 
     $this->set('id', $id);
     $this->set('map_id', $MapsAirport['Map']['id']);
+
+    $this->set('images', $this->Media->findAllWithAttributes());
 
 	}
 

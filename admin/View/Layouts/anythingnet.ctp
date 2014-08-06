@@ -62,11 +62,11 @@
         <div class="navbar-collapse collapse">
 
           <ul class="nav navbar-nav">
+            <li><?php echo $this->Html->link('Maps', '/maps/'); ?></li>
             <li><?php echo $this->Html->link('Pages', '/pages/'); ?></li>
             <li><?php echo $this->Html->link('Menu', '/menus/'); ?></li>
             <li><?php echo $this->Html->link('Images', '/images/'); ?></li>
             <li><?php echo $this->Html->link('Settings', '/settings/'); ?></li>
-            <li><?php echo $this->Html->link('Maps', '/maps/'); ?></li>
             <li><?php echo $this->Html->link('Logout', '/logout/'); ?></li>
           </ul>
 

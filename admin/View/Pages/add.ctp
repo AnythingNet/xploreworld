@@ -90,4 +90,5 @@
   </div>
 </div>
 
+<?php echo $this->Html->script('editor'); ?>
 <?php echo $this->Html->script('pages'); ?>

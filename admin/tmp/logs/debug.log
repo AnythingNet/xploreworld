@@ -8960,3 +8960,159 @@ Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
 Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
 [main] - APP\webroot\index.php, line 108
 
+2014-08-06 06:10:05 Debug: 
+MenusController::index() - APP/Controller/MenusController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+array(
+	(int) 1 => array(
+		(int) 0 => array(
+			(int) 0 => array(
+				[maximum depth reached]
+			)
+		)
+	)
+)
+2014-08-06 06:10:13 Debug: 
+MenusController::index() - APP/Controller/MenusController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+array(
+	(int) 1 => array(
+		(int) 0 => array(
+			(int) 0 => array(
+				[maximum depth reached]
+			)
+		)
+	)
+)
+2014-08-06 06:10:17 Debug: 
+MenusController::index() - APP/Controller/MenusController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+array(
+	(int) 0 => array(
+		(int) 0 => array(
+			(int) 0 => array(
+				[maximum depth reached]
+			)
+		)
+	),
+	(int) 1 => array(
+		(int) 0 => array(
+			(int) 0 => array(
+				[maximum depth reached]
+			)
+		)
+	)
+)
+2014-08-06 06:10:20 Debug: 
+MenusController::index() - APP/Controller/MenusController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+array(
+	(int) 1 => array(
+		(int) 0 => array(
+			(int) 0 => array(
+				[maximum depth reached]
+			)
+		)
+	)
+)
+2014-08-06 06:10:23 Debug: 
+MenusController::index() - APP/Controller/MenusController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+array(
+	(int) 1 => array(
+		(int) 0 => array(
+			(int) 0 => array(
+				[maximum depth reached]
+			)
+		)
+	)
+)
+2014-08-06 06:11:14 Debug: 
+MenusController::index() - APP/Controller/MenusController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+null
+2014-08-06 06:11:28 Debug: 
+MenusController::index() - APP/Controller/MenusController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+null
+2014-08-06 06:11:52 Debug: 
+MenusController::index() - APP/Controller/MenusController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+array(
+	(int) 1 => array(
+		(int) 0 => array(
+			(int) 0 => array(
+				[maximum depth reached]
+			)
+		)
+	)
+)
+2014-08-06 06:12:14 Debug: 
+MenusController::index() - APP/Controller/MenusController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+array(
+	(int) 0 => array(
+		'label' => 'About us',
+		'url' => 'about'
+	)
+)
+2014-08-06 06:12:30 Debug: 
+MenusController::index() - APP/Controller/MenusController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+null
+2014-08-06 06:12:43 Debug: 
+MenusController::index() - APP/Controller/MenusController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+null
+2014-08-06 06:16:18 Debug: 
+MenusController::index() - APP/Controller/MenusController.php, line 21
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+array()

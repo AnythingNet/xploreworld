@@ -19993,3 +19993,996 @@ Stack Trace:
 #3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
 #4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-08-04 13:58:14 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 13:59:45 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 14:00:10 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 14:00:23 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 14:00:49 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 14:01:06 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 14:01:44 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 14:02:26 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 14:03:23 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 14:03:52 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 14:07:19 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 14:08:08 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 14:08:56 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 14:19:27 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 14:19:46 Error: [SocketException] Invalid email: "you@localhost"
+Request URL: /xploreworld/maps/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Network/Email/CakeEmail.php(594): CakeEmail->_setEmail('_from', 'you@localhost', NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Network/Email/CakeEmail.php(366): CakeEmail->_setEmailSingle('_from', 'you@localhost', NULL, 'From requires o...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Network/Email/CakeEmail.php(1212): CakeEmail->from('you@localhost')
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Network/Email/CakeEmail.php(1096): CakeEmail->_applyConfig('fast')
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/Controller/MapsController.php(106): CakeEmail->config('fast')
+#5 [internal function]: MapsController->add()
+#6 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MapsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-04 14:20:33 Error: [SocketException] Connection refused
+Request URL: /xploreworld/maps/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Network/Email/SmtpTransport.php(99): CakeSocket->connect()
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Network/Email/SmtpTransport.php(59): SmtpTransport->_connect()
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Network/Email/CakeEmail.php(1121): SmtpTransport->send(Object(CakeEmail))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/Controller/MapsController.php(108): CakeEmail->send('name: houh ho\ne...')
+#4 [internal function]: MapsController->add()
+#5 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MapsController), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-08-04 14:21:10 Error: [SocketException] Invalid email: "you@localhost"
+Request URL: /xploreworld/maps/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Network/Email/CakeEmail.php(594): CakeEmail->_setEmail('_from', 'you@localhost', NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Network/Email/CakeEmail.php(366): CakeEmail->_setEmailSingle('_from', 'you@localhost', NULL, 'From requires o...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Network/Email/CakeEmail.php(1212): CakeEmail->from('you@localhost')
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Network/Email/CakeEmail.php(1096): CakeEmail->_applyConfig('default')
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/Controller/MapsController.php(106): CakeEmail->config('default')
+#5 [internal function]: MapsController->add()
+#6 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MapsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-04 14:22:01 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 14:22:22 Error: [SocketException] You need to specify at least one destination for to, cc or bcc.
+Request URL: /xploreworld/maps/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/Controller/MapsController.php(108): CakeEmail->send('name: shuhei na...')
+#1 [internal function]: MapsController->add()
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MapsController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-08-04 14:23:24 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 14:28:24 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 14:28:25 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 15:55:27 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-04 15:56:38 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 00:28:30 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 00:30:09 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 00:30:57 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 00:36:07 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 00:36:33 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 00:36:34 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 00:36:59 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 00:38:27 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 00:43:21 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 01:02:48 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 01:03:08 Error: [SocketException] Invalid email: "igehr"
+Request URL: /xploreworld/maps/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Network/Email/CakeEmail.php(440): CakeEmail->_setEmail('_to', 'igehr', NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/Controller/MapsController.php(98): CakeEmail->to('igehr')
+#2 [internal function]: MapsController->add()
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MapsController), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-08-05 01:06:25 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 01:07:02 Error: [SocketException] Invalid email: "sna"
+Request URL: /xploreworld/maps/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Network/Email/CakeEmail.php(440): CakeEmail->_setEmail('_to', 'sna', NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/Controller/MapsController.php(98): CakeEmail->to('sna')
+#2 [internal function]: MapsController->add()
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MapsController), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-08-05 01:07:13 Error: [SocketException] Invalid email: "sna"
+Request URL: /xploreworld/maps/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Network/Email/CakeEmail.php(440): CakeEmail->_setEmail('_to', 'sna', NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/Controller/MapsController.php(98): CakeEmail->to('sna')
+#2 [internal function]: MapsController->add()
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MapsController), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MapsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-08-05 01:17:02 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 01:17:41 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 01:17:51 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 03:53:44 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 03:56:18 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 04:02:59 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 04:04:26 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 04:08:18 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 04:10:19 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 04:11:02 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 04:14:14 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 04:14:26 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 04:14:45 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 04:15:32 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 05:58:10 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 05:58:36 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:01:28 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:02:37 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:03:18 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:07:13 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:07:27 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:08:09 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:11:23 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:11:49 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:12:06 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:12:34 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:12:58 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:13:08 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:13:09 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:13:13 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:13:19 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:13:21 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:13:55 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:14:11 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:14:46 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:20:27 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:20:59 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:21:14 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:21:36 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:34:42 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:38:03 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:38:50 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:45:45 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:53:07 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 06:56:37 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 07:02:21 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 07:05:03 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 07:09:48 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 07:12:15 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 07:14:38 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 07:15:25 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 07:36:46 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 07:37:29 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 07:38:14 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 07:38:37 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 07:39:26 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 07:40:05 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 07:40:52 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 07:42:00 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 07:45:50 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 07:46:34 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-05 08:29:58 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-06 00:04:33 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-06 00:05:43 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-06 00:06:04 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-06 00:07:25 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-06 00:08:13 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-06 00:08:34 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-06 00:10:11 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-06 00:10:27 Error: [NotFoundException] Not Found
+Request URL: /xploreworld/app/webroot/xploreworld/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 [internal function]: PagesController->index('home', 'app', 'webroot', 'xploreworld', 'js', 'jquery-1.10.2.m...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xploreworld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

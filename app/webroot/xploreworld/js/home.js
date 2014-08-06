@@ -1,22 +1,34 @@
+window.width_md = 1200;
+window.width_sm = 992;
+window.width_xs = 768;
+
 $(function(){
 
   $('.window').on('mouseover', function() {
 
-    var cover = $(this).find('.cover');
+    if (window.outerWidth > window.width_sm) {
 
-    cover.removeClass('open').addClass('closed');
+      var cover = $(this).find('.cover');
+      var text = $(this).find('.cover-text-inner');
 
-    console.log('close');
+      cover.removeClass('open').addClass('closed');
+      text.removeClass('hidden').addClass('show');
+
+    }
 
   });
 
   $('.window').on('mouseout', function() {
 
-    var cover = $(this).find('.cover');
+    if (window.outerWidth > window.width_sm) {
 
-    cover.removeClass('closed').addClass('open');
+      var cover = $(this).find('.cover');
+      var text = $(this).find('.cover-text-inner');
 
-    console.log('open');
+      cover.removeClass('closed').addClass('open');
+      text.removeClass('show').addClass('hidden');
+
+    }
 
   });
 

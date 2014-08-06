@@ -1,18 +1,5 @@
 $(function(){
 
-  $('#editor').summernote({
-    height: 600,
-    toolbar: [
-      ['style', ['bold', 'italic', 'underline', 'clear']],
-      ['font', ['strike']],
-      ['fontsize', ['fontsize']],
-      ['color', ['color']],
-      ['para', ['ul', 'ol', 'paragraph']],
-      ['height', ['height']],
-      ['codeview', ['codeview']],
-    ]
-  });
-
   var imageoption_refresh = function() {
 
     var selected_options = $('#img-selectmodal .image-option:checked');

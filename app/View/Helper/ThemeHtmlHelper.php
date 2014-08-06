@@ -3,7 +3,7 @@ App::uses('HtmlHelper', 'View/Helper');
 
 class ThemeHtmlHelper extends HtmlHelper {
 
-  //private $_assetPath = '/theme/xploreworld';
+  //private $_assetPath = '/app/webroot/xploreworld';
   private $_assetPath = '/xploreworld/app/webroot/xploreworld';
 
   public function getHeader($dataoptions) {

@@ -29,6 +29,10 @@ li {
     width: 300px;
   } 
 
+  .button-next {
+    width: 180px;
+  }
+
 }
 
 @media (max-width: 400px) {
@@ -68,6 +72,32 @@ li {
   margin: 20px auto;
   background: #226AB7;
   position: relative;
+}
+
+.airplane-mark {
+  width: 43px;
+  height: 43px;
+  background: #FFF url('img/airplane-mark.png') no-repeat;
+  border-radius: 50px;
+  position: absolute;
+  top: 5px;
+  left: 15px;
+}
+
+.selected-adventure {
+  color: #FFF;
+  position: absolute;
+  font-size: 1.4em;
+  top: 14px;
+  left: 75px;
+}
+
+@media (max-width: 767px) {
+
+  .selected-adventure {
+    font-size: 1.1em;
+  }
+
 }
 
 .submitarea {
@@ -178,11 +208,35 @@ div.ui-datepicker {
 }
 
 #whitesheet.fading {
+  animation: fadesheet 2.5s;
+  animation-fill-mode: forwards;
   -webkit-animation: fadesheet 2.5s;
   -webkit-animation-fill-mode: forwards;
+  -moz-animation: fadesheet 2.5s;
+  -moz-animation-fill-mode: forwards;
 }
 
+@keyframe fadesheet {
+    from {
+      opacity: 1.0;
+    }
+    to {
+      opacity: 0.0;
+      z-index: -30;
+      display: none;
+    }
+}
 @-webkit-keyframes fadesheet {
+    from {
+      opacity: 1.0;
+    }
+    to {
+      opacity: 0.0;
+      z-index: -30;
+      display: none;
+    }
+}
+@-moz-keyframes fadesheet {
     from {
       opacity: 1.0;
     }

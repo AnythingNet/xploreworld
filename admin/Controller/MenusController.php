@@ -18,13 +18,13 @@ class MenusController extends AppController {
 
     $this->loadModel('Page');
 
-    if ($this->request->isPost()) {
+    if ($this->request->isPost() && !empty($this->request->data)) {
 
       if ($this->Menu->truncate()) {
 
         $data = $this->request->data['Menu'];
         $all_params = array();
-
+         
         foreach ($data as $section => $section_menu) {
           foreach ($section_menu as $group_id => $group_menu) {
 

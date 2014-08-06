@@ -53,4 +53,23 @@ class Setting extends AppModel {
 
   }
 
+  public function getEmailAddress() {
+
+    $result = null;
+
+    $options = array(
+      'fields' => array('name', 'value'),
+      'conditions' => array('name' => 'email')
+    );
+
+    $data = $this->find('list', $options);
+
+    if (isset($data['email'])) {
+      $result = $data['email'];
+    }
+
+    return $result;
+
+  }
+
 }

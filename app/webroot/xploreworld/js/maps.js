@@ -1,7 +1,6 @@
 if (!mapStyle) {
   var mapStyle = null;
-}
-
+} 
 var Xplore = { map: null,
   //markers: markerObj,
   markers: [],
@@ -115,8 +114,7 @@ var createInfoWindowContent = function(data) {
           .append($('<span>').addClass('infolabel').text('Country'))
           .append($('<span>').addClass('infoitem').text(data.country));
   var description = $('<li>')
-          .append($('<span>').addClass('infolabel').text('About the spot'))
-          .append($('<span>').addClass('infoitem').text(data.MapsAirport.description));
+          .append($('<span>').addClass('infoitem').html(data.MapsAirport.description));
 
   ul.append(airport_code)
     .append(airport_name)
@@ -219,22 +217,23 @@ var formDone = function(e) {
   e.preventDefault();
 
   var params = {
-    seat: $('.seats:checked').val(),
+    seat: $('.seat-radio:checked').val(),
     first_name: $('#first_name').val(),
     last_name: $('#last_name').val(),
     email: $('#email').val(),
     phone: $('#phone').val(),
-    comment: $('#comment').val()
-    //items: []
+    comment: $('#comment').val(),
+    adventure: $('#selected-adventure').val(),
+    destinations: []
   }
 
-  /*
   var items = $('.items');
 
   for (var i = 0; i < items.length; i++) {
-    params.items.push($(items[i]).val());
+    params.destinations.push($(items[i]).val());
   }
-  */
+
+  console.log(params);
 
   var options = {
     type: 'post', 
@@ -243,11 +242,12 @@ var formDone = function(e) {
     dataType: 'json', 
     success: function(data) {
 
-
       if (data.status == 'success') {
 
-        $('#success-modal .modal-body').text(data.message);
-        $('#success-modal').modal('show');
+        //$('#success-modal .modal-body').text(data.message);
+        //$('#success-modal').modal('show');
+        $('#formdone').replaceWith($('<p>').addClass('alert alert-success nofade').text(data.message));
+        window.setTimeout(redirectToHome, 3000);
 
       }
 
@@ -283,7 +283,7 @@ var fadeOutAlerts = function(e) {
 
   var element = $(e.target);
 
-  if (element.hasClass('alert')) {
+  if (element.hasClass('alert') && !element.hasClass('nofade')) {
 
     window.setTimeout(function(){
       element.fadeOut();

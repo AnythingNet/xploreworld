@@ -17,6 +17,8 @@ echo $this->Html->css('maps');
     <?php echo $this->Html->image('/css/img/label-adventure.png', array('class' => 'section-label')); ?>
 
     <div id="selected-list-box">
+      <div class="airplane-mark"></div>
+      <div class="selected-adventure">Selected adventure: <span><?php echo $map_object['Map']['name']; ?></span></div>
       <div class="ticketborder hidden-xs hidden-sm"></div>
       <div class="ticket-body row">
         <div class="hidden-xs hidden-sm col-md-3">
@@ -31,7 +33,7 @@ echo $this->Html->css('maps');
 
     <div class="submitarea">
       <a href="" id="mapdone">
-        <?php echo $this->Html->image('/css/img/button-next.png', array('class' => 'section-label')); ?>
+        <?php echo $this->Html->image('/css/img/button-next.png', array('class' => 'button-next')); ?>
       </a>
     </div>
 
@@ -101,11 +103,13 @@ echo $this->Html->css('maps');
     <div class="submitarea">
       <div class="submitarea">
         <a href="" id="formdone">
-          <?php echo $this->Html->image('/css/img/button-next.png', array('class' => 'section-label')); ?>
+          <?php echo $this->Html->image('/css/img/button-next.png', array('class' => 'button-next')); ?>
         </a>
-        <a href="" id="formback">Back To Map</a>
+        <a href="" id="formback">Go back to map</a>
       </div>
     </div>
+
+    <input id="selected-adventure" type="hidden" value="<?php echo $map_object['Map']['name']; ?>" />
 
   </div>
 
@@ -132,7 +136,7 @@ echo $this->Html->css('maps');
 echo $this->Html->script('pretty-checkable/prettyCheckable.min');
 
 echo $this->Html->scriptBlock(
-  'var markerObj = ' . $this->Js->object($maps_object)
+  'var markerObj = ' . $this->Js->object($map_object['Airport'])
 );
 echo $this->Html->scriptBlock(
   'var addUrl = ' . $this->Js->object($add_url)

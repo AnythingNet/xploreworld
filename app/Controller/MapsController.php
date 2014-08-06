@@ -1,6 +1,7 @@
 <?php
 App::uses('AppController', 'Controller');
 App::uses('ExceptionRenderer', 'Error');
+App::uses('CakeEmail', 'Network/Email');
 /**
  * Maps Controller
  *
@@ -39,13 +40,15 @@ class MapsController extends AppController {
       throw new NotFoundException();
     }
 
-    $this->set('maps_object', $page['Airport']);
+    $this->set('map_object', $page);
     $this->set('add_url', Router::url(array('controller' => 'maps', 'action' => 'add')));
     $this->set('home_url', Router::url('/'));
 
   }
 
   public function add() {
+
+    $this->autoRender = false;
 
     if (!$this->request->isPost()) {
       throw new NotFoundException();
@@ -88,43 +91,49 @@ class MapsController extends AppController {
 
     } else {
 
-      /** temporary logic - must be changed later **/
-      $message = 'name: ' . $this->request->data('first_name') . ' ' . $this->request->data('last_name') . "\n";
-      $message .= 'email: ' . $this->request->data('email') . "\n";
-      $message .= 'phone: ' . $this->request->data('phone') . "\n";
-      $message .= 'seat: ' . $this->request->data('seat') . "\n";
-      $message .= 'comment: ' . $this->request->data('comment') . "\n";
+      $this->loadModel('Setting');
     
-      mail('shuhei.nakahodo@anythingnet.com.au', 'Xploreworld: Someone has sent a message to you', $message);
+      $email = new CakeEmail();
+      //$email->config('default');
+      $email->config('test');
+      $email->subject('Xploreworld: Thank you for visting us');
+      $email->to($this->request->data('email'));
+      $email->viewVars(array(
+        'email_heading' => 'Thank you for visiting Xploreworld',
+        'email_subheading' => 'Your enquiry has been sent to Xploreworld admin and we will contact you as soon as possible',
+        'name' => $this->request->data('first_name') . ' ' . $this->request->data('last_name'),
+        'email' => $this->request->data('email'),
+        'phone' => $this->request->data('phone'),
+        'seat' => $this->request->data('seat'),
+        'comment' => $this->request->data('comment'),
+        'adventure' => $this->request->data('adventure'),
+        'destinations' => $this->request->data('destinations'),
+      ));
+      $email->send();
+
+      $email = new CakeEmail();
+      //$email->config('default');
+      $email->config('test');
+      $email->subject('Xploreworld: Someone has sent a message to you');
+      $email->to($this->Setting->getEmailAddress(), $this->request->data('email'));
+      $email->viewVars(array(
+        'email_heading' => 'Someone has created an itenerary from Xploreworld',
+        'email_subheading' => 'See the details below',
+        'name' => $this->request->data('first_name') . ' ' . $this->request->data('last_name'),
+        'email' => $this->request->data('email'),
+        'phone' => $this->request->data('phone'),
+        'seat' => $this->request->data('seat'),
+        'comment' => $this->request->data('comment'),
+        'adventure' => $this->request->data('adventure'),
+        'destinations' => $this->request->data('destinations'),
+      ));
+      $email->send();
 
       $result = array('status' => 'success', 'message' => 'Thank you. We\'ll get back to you as soon as possible');
 
     }
 
     $this->response->body(json_encode($result));
-
-    /*
-    invalid:
-    {status:'forminvalid', fields:[
-        {
-          id: 'first-name',
-          message: 'can not be empty'
-        },
-        {
-          id: 'last-name',
-          message: 'can not be empty'
-        }
-        ...
-      ]
-    }
-
-    error
-    {status:'error', message: 'something has occured' }
-
-    success
-    {status:'success'}
-    */
-
   
   }
 
